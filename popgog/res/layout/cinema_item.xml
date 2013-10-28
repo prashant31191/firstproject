@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/cinema_bg"
+              android:padding="10dp"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/cinemaName"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"></TextView>
+        <ImageView android:id="@+id/love"
+                  android:layout_toEndOf="@id/cinemaName"
+                  android:layout_width="wrap_content"
+                  android:src="@drawable/love_go"
+                  android:layout_toRightOf="@id/cinemaName"
+                  android:layout_height="wrap_content"></ImageView>
+        <TextView android:id="@+id/distance"
+                  android:layout_alignParentRight="true"
+                  android:layout_width="wrap_content"
+                  android:textColor="@color/white"
+                  android:layout_height="wrap_content"></TextView>
+    </RelativeLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_width="fill_parent">
+        <ImageView
+                   android:layout_toEndOf="@id/cinemaName"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/location_icon_small"
+                  android:text="ddd"
+                   android:layout_height="wrap_content"></ImageView>
+        <TextView android:id="@+id/address"
+                  android:textColor="@color/white"
+                  android:layout_marginLeft="10dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+</LinearLayout>

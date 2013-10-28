@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- share items -->
+    <string-array name="app_share_items">
+	    <item>发送手机短信</item>
+	    <item>分享到新浪微博</item>
+	    <item>分享到微信</item>
+	    <item>分享到QQ空间</item>
+    </string-array>
+    <string-array name="app_add_photo">
+	    <item>选取相册照片</item>
+	    <item>现在拍摄一张</item>
+    </string-array>
+    <string-array name="app_fans_filter">
+	    <item>查看全部</item>
+	    <item>只看男♂</item>
+	    <item>只看女♀</item>
+	    <item>头像视图</item>
+	    <item>取消</item>
+    </string-array>
+    <string-array name="app_circle_filter">
+	    <item>热门</item>
+	    <item>收藏</item>
+	    <item>附近</item>
+	    <item>区域</item>
+	    <item>取消</item>
+    </string-array>
+    <string-array name="app_setting_password">
+	    <item>修改密码</item>
+	    <item>通过手机重置密码</item>
+    </string-array>
+    <string-array name="app_binding_weibo">
+	    <item>解除绑定微博</item>
+	    <item>分享给好友</item>
+    </string-array>
+    <string-array name="photo_click">
+        <item>设为头像</item>
+        <item>查看</item>
+	    <item>删除照片</item>
+    </string-array>
+    <string-array name="photo_first_click">
+        <item>查看</item>
+	    <item>删除照片</item>
+    </string-array>
+    <string-array name="regist_array">
+	    <item>使用手机注册</item>
+	    <item>使用邮箱注册</item>
+	    <item>取消</item>
+    </string-array>
+</resources>

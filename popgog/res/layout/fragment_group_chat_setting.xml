@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+    <com.showu.common.widget.TitleWidget
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            showu:center_view_text="@string/group_chat_setting"
+            android:id="@id/titleBar"/>
+
+    <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:background="@color/white"
+            android:id="@+id/nameLayout"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:text="@string/group_chat_name"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content">
+        </TextView>
+
+        <TextView
+                android:id="@+id/group_name"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/nav_next"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:text="@string/group_message_notifycation"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:layout_width="wrap_content">
+        </TextView>
+
+        <CheckBox
+                android:id="@+id/check_notifycation"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"></CheckBox>
+    </RelativeLayout>
+
+    <Button
+            android:id="@+id/delete"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/round_yellow_bg"
+            android:text="@string/group_delete"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"></Button>
+</LinearLayout>

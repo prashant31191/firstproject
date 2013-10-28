@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_blue_bg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <com.showu.common.widget.TitleWidget
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            showu:center_view_text="@string/friend_myfriend"
+            android:id="@id/titleBar"/>
+
+
+        <com.showu.baogu.util.view.MyXListView
+            android:id="@+id/fragment_friends_listv"
+            style="@style/list_view_style"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+</FrameLayout>

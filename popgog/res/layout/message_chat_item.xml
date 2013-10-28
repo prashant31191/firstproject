@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.showu.common.widget.PressImageView
+            android:id="@+id/headView"
+            android:src="@drawable/defaul_head"
+            android:layout_width="@dimen/headsize"
+            android:layout_height="@dimen/headsize"
+            ></com.showu.common.widget.PressImageView>
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_toRightOf="@id/headView"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_6"
+            android:layout_width="wrap_content">
+    </TextView>
+
+    <TextView
+            android:id="@+id/time"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_8"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+    </TextView>
+
+    <TextView
+            android:id="@+id/distance"
+            android:layout_toRightOf="@id/headView"
+            android:layout_below="@id/name"
+            android:layout_marginRight="@dimen/margin_8"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+    </TextView>
+
+    <TextView
+            android:id="@+id/message"
+            android:layout_toRightOf="@id/distance"
+            android:layout_below="@id/name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+    </TextView>
+
+</RelativeLayout>

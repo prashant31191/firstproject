@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_blue_bg"
+    android:layout_height="match_parent">
+
+    <com.showu.common.widget.TitleWidget
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        showu:center_view_text="详情"
+        android:id="@id/titleBar"/>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/shap_agle_white_bg"
+        android:padding="3dp"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_below="@id/titleBar"
+        android:orientation="horizontal"
+        android:layout_above="@+id/editLayout"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comment"/>
+
+        <ListView
+            android:id="@+id/activity_dynamic_detail_listv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>-->
+
+
+    <com.showu.baogu.util.view.MyXListView
+        android:id="@+id/activity_dynamic_detail_listv"
+        android:layout_below="@id/titleBar"
+        android:layout_above="@+id/editLayout"
+        style="@style/list_view_style2"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/editLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:padding="4dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/messageFace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/face_icon"/>
+
+            <EditText
+                android:id="@+id/messageContent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:layout_toLeftOf="@+id/send"
+                android:background="@drawable/round_edit_bg"
+                android:layout_toRightOf="@+id/messageFace"/>
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="回复"
+                android:background="@drawable/btn_blue_bg"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <com.showu.common.widget.FaceGridView
+            android:id="@+id/fgv_face"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</RelativeLayout>

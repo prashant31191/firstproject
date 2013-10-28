@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/pic_chat_session_item_bg"
+              android:gravity="top">
+
+    <RelativeLayout
+            android:id="@+id/head_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5">
+
+        <FrameLayout
+                android:id="@+id/head_fram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_15"
+                android:foreground="@drawable/photogrid_list_selector">
+
+            <ImageView
+                    android:id="@+id/headImage"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/defaul_head"/>
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_weight="1"
+            android:background="@drawable/message_list_h">
+
+        <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/time"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/user_name"/>
+
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_below="@id/username"
+                android:id="@+id/message_layout"></LinearLayout>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:id="@+id/throu_check"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/throu_check"
+                android:background="@drawable/round_agle_bg"></TextView>
+    </RelativeLayout>
+</LinearLayout>

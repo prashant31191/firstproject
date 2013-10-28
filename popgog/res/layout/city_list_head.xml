@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:binding="http://www.gueei.com/android-binding/"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/gpsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/current_city" >
+        </TextView>
+
+        <Button android:id="@+id/gpsCity"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:background="@drawable/btn_yuan_bg"
+            android:gravity="center" >
+        </Button>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:text="@string/hot_city" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hotCityLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gpsLayout"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

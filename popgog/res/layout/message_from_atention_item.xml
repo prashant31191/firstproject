@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:binding="http://www.gueei.com/android-binding/"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/message_item_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top" >
+
+        <FrameLayout
+            android:id="@+id/head_fram"
+            android:foreground="@drawable/photogrid_list_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/headImage"
+                android:layout_width="@dimen/head_width"
+                android:layout_height="@dimen/head_height"
+                android:scaleType="fitXY"
+                android:src="@drawable/defaul_head" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message_popgog_bg"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

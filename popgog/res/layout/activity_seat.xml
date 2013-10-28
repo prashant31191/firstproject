@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+    <com.showu.common.widget.TitleWidget
+            android:id="@id/titleBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            showu:center_view_text="会话"
+            />
+
+
+    <RelativeLayout
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/timeLayout"
+            android:layout_below="@id/titleBar"
+            android:layout_width="fill_parent"
+            android:background="@color/title_bar_bg"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/timeLayout"
+            android:layout_alignTop="@+id/timeLayout">
+
+        <TextView
+                android:id="@+id/day"
+                android:textSize="20sp"
+                android:textColor="@color/day_on"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"></TextView>
+
+        <TextView
+                android:id="@+id/mounth"
+                android:text="7月"
+                android:textColor="@color/day_on"
+                android:layout_toRightOf="@+id/day"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"></TextView>
+
+        <TextView
+                android:id="@+id/date"
+                android:text="5"
+                android:textColor="@color/day_on"
+                android:layout_toRightOf="@+id/day"
+                android:layout_below="@+id/mounth"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"></TextView>
+
+        <TextView
+                android:id="@+id/time"
+                android:text="5"
+                android:layout_centerInParent="true"
+                android:textColor="@color/day_on"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"></TextView>
+
+        <TextView
+                android:id="@+id/price_t"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/day_on"
+                android:text="@string/tik"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"></TextView>
+
+        <TextView
+                android:id="@+id/price"
+                android:text="5"
+                android:layout_toLeftOf="@+id/price_t"
+                android:textColor="@color/yellow_price"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"></TextView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:id="@+id/submit_layout"
+            android:background="@color/title_bar_bg"
+            android:layout_width="fill_parent">
+        <Button
+                android:id="@+id/submit"
+                android:text="提交"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:background="@drawable/submit_button"
+                android:layout_width="wrap_content"></Button>
+        <TextView
+                android:id="@+id/seat"
+                android:textColor="@color/day"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/submit"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"></TextView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seat_layout"
+            android:layout_above="@id/submit_layout"
+            android:layout_below="@+id/timeLayout">
+
+        <com.showu.common.widget.SeatWidget
+                android:id="@+id/seatLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/activity_seat_cinemaName"/>
+
+        <ProgressBar
+                android:id="@+id/activity_seat_progress"
+                style="?android:attr/progressBarStyleInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

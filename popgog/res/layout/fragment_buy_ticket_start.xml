@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.showu.common.widget.TitleWidget
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        showu:center_view_text="一起看电影"
+        android:id="@id/titleBar"/>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/titleBar"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="fill_parent">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/buy_ticket_start"
+                android:layout_height="wrap_content">
+
+
+                <com.showu.common.widget.CircleImageView
+                    android:id="@+id/activity_buy_ticket_start_head"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_32"
+                android:paddingRight="@dimen/margin_32"
+                android:layout_marginTop="@dimen/margin_16"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/activity_buy_ticket_start_buy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="发布观影活动"
+                    style="@style/body_text_white"
+                    android:background="@drawable/btn_orange"/>
+
+                <CheckBox
+                    android:id="@+id/activity_buy_ticket_start_publish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text=" 仅允许好友参加"
+                    android:button="@drawable/cb_bg"
+                    android:layout_marginTop="@dimen/margin_16"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/body_text_white" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

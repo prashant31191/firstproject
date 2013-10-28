@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:binding="http://www.gueei.com/android-binding/"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/message_item_padding" >
+    <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/chat_time_item_bg"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timeText"
+        android:layout_marginTop="@dimen/message_margin_time"
+        android:layout_alignParentRight="true"
+        android:gravity="top" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                android:id="@+id/length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message_mine_text" >
+
+            <TextView
+                android:id="@+id/length_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:src="@drawable/play" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/headImage"
+            android:layout_width="@dimen/head_width"
+            android:layout_height="@dimen/head_height"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:src="@drawable/defaul_head" />
+    </LinearLayout>
+
+</RelativeLayout>

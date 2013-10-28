@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_blue_bg" >
+
+    <com.showu.common.widget.TitleWidget
+        android:id="@id/titleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        showu:center_view_text="@string/regist_pop"/>
+
+    <LinearLayout
+        android:id="@+id/fragment_regist_phone_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_32"
+        android:layout_below="@+id/titleBar"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regist_phone"
+            android:padding="@dimen/margin_8"/>
+
+
+
+            <EditText
+                android:id="@+id/fragment_regist_phone_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shap_agle_white_bg"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regist_phone_declare"
+            android:padding="@dimen/margin_8"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fragment_regist_phone_getAuthNo"
+        style="@style/btn_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/fragment_regist_phone_layout"
+        android:text="@string/regist_phone_getAuthNo"/>
+
+</RelativeLayout>

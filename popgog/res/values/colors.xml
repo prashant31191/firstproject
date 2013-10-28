@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="label_blue">#ff67c5f2</color>
+    <color name="grey_on">#2B3036</color>
+    <color name="gold">#b89766</color>
+    <color name="gold_deep">#91785D</color>
+    <!--<color name="orange">#EEAD0E</color>-->
+    <color name="list_line">#ADD3EF</color>
+    <color name="fan_list_sign">#1E6DA0</color>
+    <color name="fan_list_name">#070D6B</color>
+    <!-- <color name="orange_bg">#EEC211</color> -->
+    <color name="orange_bg">#FF8502</color>
+    <color name="tab_gray_bg">#fff3f3f3</color>
+    <color name="list_select_bg">#8000ff00</color>
+    <color name="progressbar_bg">#30000000</color>
+    <color name="text_num_gray">#333</color>
+    <color name="pink_bg">#ffdddd</color>
+    <color name="pink">#6d5144</color>
+    <color name="text_green">#61a615</color>
+    <color name="text_blue">#33b2d5</color>
+    <color name="blue_deep">#12A3D9</color>
+    <color name="orange_shallow">#F3EDE4</color>
+    <color name="orange_deep">#A33904</color>
+    <color name="green">#37F32E</color>
+    <color name="green_normal_btn">#0AA20A</color>
+    <color name="orange_normal_btn">#F25D07</color>
+    <color name="yellow_normal_btn">#F3B700</color>
+    <color name="green_deep">#2D4207</color>
+    <color name="grey_deep">#F5F1E6</color>
+    <color name="grey_shallow">#F1F1F1</color>
+    <color name="red">#E6586F</color>
+    <color name="red_shalllow">#FFF5F4</color>
+    <color name="text_common_color">#686868</color>
+    <color name="text_orange_color">#FF7F2E</color>
+    <color name="app_blue">#267ed7</color>
+    <color name="trans">#00000000</color>
+    <color name="tab_trans">#648ba3</color>
+    <color name="app_blue_bg">#DEE8EF</color>
+    <color name="line_grey">#CBCBCB</color>
+    <color name="title_bar_bg">#07446B</color>
+    <color name="title_bar_press">#0000FF</color>
+    <color name="bottom_bar_bg">#07446B</color>
+    <color name="bottom_bar_item_on">#053350</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#ff58616d</color>
+    <color name="orange">#FF7200</color>
+
+	<!-- 会话按下去的yanse -->
+	<color name="chat_session_on">#eef3f7</color>
+	<color name="grid_state_pressed">#BB7dbcd3</color>
+    <color name="grid_state_focused">#777dbcd3</color>
+    <color name="mine_number">#04639f</color>
+    <color name="mine_number_name">#a0a0a0</color>
+
+    <color name="body_text_blue_deep">#07446B</color>
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+
+    <color name="body_text_1_positive">#ff669900</color>
+    <color name="body_text_1_negative">#ffff4444</color>
+
+    <!-- FilmBean -->
+    <color name="film_front_detail_bg">#07446B</color>
+    <color name="chat_edit_bg">#a1bacb</color>
+    <color name="yellow_price">#ff8600</color>
+    <color name="film_gallary_bg">#021928</color>
+
+
+    <!-- message list -->
+    <color name="msg_content">#555555</color>
+    <color name="msg_time">#999999</color>
+    <color name="no_chang">#e3e3e3</color>
+    <color name="chang">#8f8b81</color>
+    <color name="cinema_price">#ece4d0</color>
+    <color name="hint_color">#BEBEBE</color>
+    <color name="face_bg">#dadada</color>
+    <color name="face_btn">#dee8ef</color>
+    <color name="face_btn_text">#25577a</color>
+    <color name="cinema_bg">#053350</color>
+    <color name="cinema_line">#01121c</color>
+    <color name="day_color_on">#095789</color>
+    <color name="day_on">#acdeff</color>
+    <color name="day">#778491</color>
+    <color name="blue_image">#00acfc</color>
+</resources>

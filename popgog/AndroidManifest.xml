@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.showu.baogu"
+          android:versionCode="2"
+          android:versionName="1.0.1">
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16"/>
+
+    <application
+        android:name=".application.BaoguApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+        <activity
+                android:name=".activity.film.CityActivity"
+                android:configChanges="keyboardHidden|orientation"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name=".activity.FilmShareActivity"
+                android:configChanges="keyboardHidden|orientation"
+                android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.message.ChatActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustUnspecified|adjustResize"/>
+        <activity
+            android:name=".activity.message.MessageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.filmFan.FriendActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.user.UserActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.message.ShowMapActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ImageDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.message.HelloActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ImageGridActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.user.SettingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.film.FilmIndexActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.film.EtickitActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.film.GroupActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.film.ActivityActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.WapActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.film.OnLineSeatActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustUnspecified|adjustResize"/>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:noHistory="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="tencent100326015"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.StartActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.showu.common.util.image.crop.CropActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activity.user.RegistPhoneActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.user.UserInfoActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.user.OtherRegistActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activity.user.ForgetPswActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activity.filmFan.FanActivity"
+            android:hardwareAccelerated="false"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.filmFan.FanInfoActivity"
+            android:hardwareAccelerated="false"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.filmFan.MyFriendActivity"
+            android:hardwareAccelerated="false"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.filmFan.FriendAddHomeActivity"
+            android:hardwareAccelerated="false"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.filmFan.FriendAddActivity"
+            android:hardwareAccelerated="false"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.filmFan.FriendBlackActivity"
+            android:hardwareAccelerated="false"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.user.DynamicActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.user.DynamicPulishActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.user.DynamicFanActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name=".activity.user.DynamicDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="stateHidden|adjustUnspecified|adjustResize"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.filmFan.PublicInfoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.CouponActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.user.OnlineOrderDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.user.BindPhoneActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.user.EticketOrderDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.filmFan.UnReadMsgActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.user.BindSinaShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.filmFan.ContactActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <!-- 银联 -->
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.unionpay.upomp.lthj.android.plugin.init.test"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.IndexActivityGroup"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.unionpay.upomp.lthj.android.plugin.index.test"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.HomeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.PayActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.AccountActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.BankCardInfoActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.SupportCardActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.UserProtocolActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.AboutActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".activity.film.BuyTicketTogetherActivity"
+            android:hardwareAccelerated="false"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.user.UserOrderActivity"
+            android:hardwareAccelerated="false"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.user.UserAccountActivity"
+            android:hardwareAccelerated="false"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".xmpp.XmppService"></service>
+
+
+        <provider
+            android:name=".xmpp.provider.MessageProvide"
+            android:authorities="com.baogu.showu.provider"/>
+        <provider
+            android:name=".xmpp.provider.SessionProvide"
+            android:authorities="com.baogu.showu.session.provider" />
+        <provider
+            android:name=".xmpp.provider.FanBlacklistProvide"
+            android:authorities="com.baogu.showu.fanblacklist.provider" />
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="67bd45aa44c2924d552f0a99b58aea3b"/>
+    </application>
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE"/>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+</manifest>

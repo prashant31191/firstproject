@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/show_seat"
+        android:layout_width="match_parent"
+        android:background="#04263B"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dynamic_seat_bg">
+
+            <com.showu.common.widget.CircleImageView
+                android:id="@+id/item_dynamic_seat_head"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginTop="30px"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+
+        android:id="@+id/seat_bottom_bg"
+        android:layout_below="@+id/show_seat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dynamic_seat_bottom_bg">
+
+        <TextView
+            android:id="@+id/item_dynamic_seat_filmname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:text="肖申克的救赎"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="#D2CD12"
+            android:layout_marginRight="8dp"
+            android:drawableRight="@drawable/message_next"
+            android:text="参加 "/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/item_dynamic_seat_front"
+        android:layout_below="@+id/seat_bottom_bg"
+        android:layout_width="50dp"
+        android:layout_marginTop="-60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:layout_alignBottom="@+id/seat_bottom_bg" />
+
+</RelativeLayout>

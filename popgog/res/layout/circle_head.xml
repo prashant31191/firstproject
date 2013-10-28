@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+             android:orientation="vertical"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+    <com.showu.common.widget.CircleImageView
+            android:id="@+id/headView"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"></com.showu.common.widget.CircleImageView>
+</RelativeLayout>

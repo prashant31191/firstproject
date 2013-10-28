@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="match_parent"
+    android:background="@color/app_blue_bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.showu.common.widget.TitleWidget
+        android:id="@id/titleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        showu:center_view_text="@string/sys_setting" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/grey_bold_16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_10"
+                    android:text="@string/message_setting" />
+
+                <RelativeLayout
+                    android:id="@+id/rlayout_sound"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/btn_shang_bg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/mine_left_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="5dip"
+                        android:text="@string/sound_effect" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center" >
+
+                        <com.showu.common.widget.MySlipSwitchWidget
+                            android:id="@+id/cb_sound"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlayout_shake"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/btn_xia_bg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/mine_left_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="5dip"
+                        android:text="@string/shake" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" >
+
+                        <com.showu.common.widget.MySlipSwitchWidget
+                            android:id="@+id/cb_shake"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/grey_bold_16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_10"
+                android:text="@string/account_manager" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_password"
+                    style="@style/mine_left_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:background="@drawable/btn_shang_bg"
+                    android:drawableRight="@drawable/nav_next"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:text="密码设置" />
+
+                <Button
+                    android:id="@+id/btn_black_list"
+                    style="@style/mine_left_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:background="@drawable/btn_xia_bg"
+                    android:drawableRight="@drawable/nav_next"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:text="黑名单" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="20dip"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_shareto_friend"
+                    style="@style/mine_left_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:background="@drawable/btn_shang_bg"
+                    android:drawableRight="@drawable/nav_next"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:paddingLeft="15dip"
+                    android:text="推荐给好友" />
+
+                <Button
+                    android:id="@+id/btn_recommendapp"
+                    style="@style/mine_left_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:visibility="gone"
+                    android:background="@drawable/btn_shang_bg"
+                    android:drawableRight="@drawable/nav_next"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:text="推荐应用" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_version"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:background="@drawable/btn_shang_bg"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/mine_left_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:paddingRight="5dp"
+                        android:text="检查新版本" />
+
+                    <TextView
+                        android:id="@+id/tv_version"
+                        style="@style/mine_right_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@null"
+                        android:drawableRight="@drawable/nav_next"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlayout_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/btn_zhong_bg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/mine_left_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:text="@string/autoupdate" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" >
+
+                        <com.showu.common.widget.MySlipSwitchWidget
+                            android:id="@+id/cb_autoupdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_feedback"
+                    style="@style/mine_left_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:background="@drawable/btn_zhong_bg"
+                    android:drawableRight="@drawable/nav_next"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:text="意见反馈"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btn_userhelp"
+                    style="@style/mine_left_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:background="@drawable/btn_xia_bg"
+                    android:drawableRight="@drawable/nav_next"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:text="用户帮助"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/clean_cach"
+                style="@style/mine_left_text"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@drawable/btn_yuan_bg"
+                android:drawableRight="@drawable/nav_next"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dip"
+                android:text="清理缓存"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/btn_logout_bg"
+                android:text="退出"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

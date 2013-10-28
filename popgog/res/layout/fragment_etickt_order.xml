@@ -1,0 +1,233 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/cinema_bg"
+              android:orientation="vertical">
+
+    <com.showu.common.widget.TitleWidget
+            android:id="@id/titleBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            showu:center_view_text="确认订单"
+            />
+
+
+    <!--<ScrollView-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent">-->
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/submitLayout"
+                android:background="@color/title_bar_bg"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/acitivity_seat_order_pay_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/submit_button"
+                    android:text="确认支付"
+                    android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <ScrollView
+                android:layout_height="wrap_content"
+                android:layout_above="@id/submitLayout"
+                android:layout_alignParentTop="true"
+                android:layout_width="fill_parent">
+
+            <RelativeLayout
+                    android:id="@+id/seat_detail"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                <ImageView
+                        android:id="@+id/buyLine"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/buy_head_line"/>
+
+                <LinearLayout
+                        android:id="@+id/detail_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/buyLine"
+                        android:layout_alignRight="@id/buyLine"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:orientation="vertical"
+                        android:background="@drawable/order_detail"
+                        android:paddingBottom="@dimen/margin_5">
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                style="@style/black_16sp"
+                                android:text="@string/film_order_type"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                        <TextView
+                                android:id="@+id/ticktOrder"
+                                style="@style/white_on_18sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                style="@style/black_16sp"
+                                android:text="@string/film_order_cinema"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                        <TextView
+                                android:id="@+id/cinemaName"
+                                style="@style/white_on_18sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                style="@style/black_16sp"
+                                android:text="@string/film_order_validate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                        <TextView
+                                android:id="@+id/validate"
+                                style="@style/white_on_18sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                style="@style/black_16sp"
+                                android:text="@string/film_order_sigle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                        <TextView
+                                android:id="@+id/film_sigle"
+                                style="@style/white_on_18sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                style="@style/black_16sp"
+                                android:text="数量:"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                        <ImageView
+                                android:id="@+id/minus"
+                                android:textSize="18sp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@drawable/minus_icon"
+                                android:layout_marginLeft="15dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+
+                        <TextView
+                                android:id="@+id/ticktNumber"
+                                android:textColor="@color/yellow_price"
+                                android:textSize="18sp"
+                                android:text="2"
+                                android:gravity="center"
+                                android:background="@drawable/etickt_number_bg"
+                                android:layout_marginLeft="15dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        <ImageView
+                            android:id="@+id/adds"
+                            android:textColor="@color/yellow_price"
+                            android:textSize="18sp"
+                            android:background="@drawable/add_icon"
+                            android:layout_marginLeft="15dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <EditText
+                        android:id="@+id/cellphone"
+                        android:layout_below="@id/detail_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/edit_bg"
+                        android:hint="请输入接收电子票的手机号码"
+                        android:inputType="phone"
+                        />
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+    <!--</ScrollView>-->
+
+</LinearLayout>

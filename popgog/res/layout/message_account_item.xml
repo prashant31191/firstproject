@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@color/black"></ImageView>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/account_image"
+                android:layout_marginTop="5dp"
+                android:layout_width="@dimen/headsize_90"
+                android:layout_height="@dimen/headsize_90"></ImageView>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/account_image"
+                android:layout_height="wrap_content"
+                android:text="2222222"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:id="@+id/name"></TextView>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_alignLeft="@id/name"
+                android:layout_marginTop="10dp"
+                android:text="32543534252"
+                android:layout_below="@id/name"
+                android:layout_height="wrap_content"
+                android:id="@+id/sigletrue"></TextView>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"></TextView>
+    </RelativeLayout>
+</LinearLayout>

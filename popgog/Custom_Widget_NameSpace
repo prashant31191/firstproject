@@ -1,0 +1,58 @@
+自定义控件用法
+在xml布局文件的根节点定义命名空间如下:
+	xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+	
+在xml布局文件中如下添加属性，具体的属性名称可以到/res/values/attrs中查看名字叫"TitleBar"
+的列表名称,
+	<com.showu.baogu.widget.TitleWidget
+        android:id="@id/titleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        showu:center_view_text="影片详情"
+        showu:right_btn_bg="@drawable/title_share" >
+    </com.showu.baogu.widget.TitleWidget>
+----------------------------------------------------------
+- 每个titleBar的名称必须强制引用 android:id="@id/titleBar" -
+----------------------------------------------------------   
+
+附录：
+	<declare-styleable name="TitleBar">
+
+        <!-- 设置左布局的背景，有默认背景 -->
+        <attr name="left_bg" format="reference" />
+
+        <!-- 设置左布局按钮的背景，有默认返回背景 -->
+        <attr name="left_view_bg" format="reference" />
+
+        <!-- 设置左布局按钮的文字 -->
+        <attr name="left_view_text" format="string" />
+
+        <!-- 设置左布局的是否可见，默认可见 -->
+        <attr name="left_view_visibility" format="integer" />
+
+        <!-- 设置右布局按钮的背景 -->
+        <attr name="right_bg" format="reference" />
+
+        <!-- 设置右布局按钮的背景 -->
+        <attr name="right_view_bg" format="reference" />
+
+        <!-- 设置右布局按钮的文字 -->
+        <attr name="right_view_text" format="string" />
+
+        <!-- 设置右布局的可见性，默认可见 -->
+        <attr name="right_view_visibility" format="integer" />
+
+        <!-- 设置中间布局的可见性 -->
+        <attr name="center_view_visibility" format="integer" />
+
+        <!-- 设置中间Text的文字 -->
+        <attr name="center_view_text" format="string" />
+    </declare-styleable>
+    
+    
+    
+    
+    
+    
+    

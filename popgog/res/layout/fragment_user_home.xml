@@ -1,0 +1,178 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_blue_bg" >
+
+    <com.showu.common.widget.TitleWidget
+        android:id="@id/titleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        showu:left_view_bg="@drawable/title_setting"
+        showu:center_view_text="@string/user_info"/>
+
+    <RelativeLayout
+        android:id="@+id/fragment_user_home_info"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/user_head_layout_height"
+        android:layout_marginTop="@dimen/margin_32"
+        android:layout_marginBottom="@dimen/margin_32"
+        android:layout_below="@+id/titleBar"
+
+        style="@style/item_white_with_line"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/fragment_user_home_headlayout"
+            android:layout_width="@dimen/headsize_90"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/margin_8"
+            android:layout_height="@dimen/headsize_90">
+
+            <ImageView
+                android:id="@+id/fragment_user_home_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@drawable/defaul_head"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/fragment_user_home_headlayout"
+            android:layout_alignBottom="@+id/fragment_user_home_headlayout"
+            android:layout_toRightOf="@+id/fragment_user_home_headlayout"
+            android:paddingTop="@dimen/margin_8"
+            android:paddingBottom="@dimen/margin_8"
+            android:layout_toLeftOf="@+id/imageView">
+
+            <TextView
+                android:id="@+id/fragment_user_home_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/body_text_fans_name"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"/>
+
+            <RelativeLayout
+               android:layout_below="@+id/fragment_user_home_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/fragment_user_home_popid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    style="@style/body_text_fans_sign"
+                    android:textColor="@color/black"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_16"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_user_home_filmticket"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height_48"
+        style="@style/item_white_with_line"
+        android:layout_below="@+id/fragment_user_home_info">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:drawableLeft="@drawable/myticket"
+            android:text="@string/user_myticket"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_16"
+            android:id="@+id/fragment_user_home_next"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_user_home_countcash"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height_48"
+        style="@style/item_white_with_line"
+        android:layout_below="@+id/fragment_user_home_filmticket">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:drawableLeft="@drawable/mycountcrash"
+            android:text="@string/user_countcrash"/>
+
+        <TextView
+            android:id="@+id/fragment_user_home_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange_deep"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_16"
+            android:id="@+id/imageView"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_user_home_chit"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height_48"
+        style="@style/item_white_with_line"
+        android:layout_below="@+id/fragment_user_home_countcash">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:drawableLeft="@drawable/mychit"
+            android:text="@string/user_chit"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_16"/>
+    </RelativeLayout>
+
+</RelativeLayout>

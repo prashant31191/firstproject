@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/app_blue_bg"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_black_gray"
+                    android:text="类型："/>
+
+            <TextView
+                    android:id="@+id/item_coupon_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_black_gray"
+                    android:text="到期："/>
+
+            <TextView
+                    android:id="@+id/item_coupon_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_black"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3333"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/marked"></TextView>
+
+</RelativeLayout>

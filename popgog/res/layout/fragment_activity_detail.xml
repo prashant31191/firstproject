@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/grey_shallow">
+
+    <com.showu.common.widget.TitleWidget
+            android:id="@id/titleBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+    </com.showu.common.widget.TitleWidget>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:id="@+id/buttonLayout"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/buy_button"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:enabled="false"
+                android:text="购票"
+                android:background="@drawable/pic_buy_etickt"></Button>
+    </LinearLayout>
+
+    <WebView
+            android:id="@+id/wv_weibo"
+            android:layout_above="@id/buttonLayout"
+            android:layout_below="@id/titleBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+    </WebView>
+</RelativeLayout>

@@ -1,0 +1,198 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/cinema_bg</item>
+    </style>
+
+    <style name="title_view_center">
+        <item name="android:textSize">@dimen/title</item>
+        <item name="android:textColor">@color/white</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="title_view_left">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/title_back</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="title_view_right">
+        <item name="android:textColor">@color/white</item>
+        <!--<item name="android:background">@drawable/tran_bg</item>-->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="body_text_black_gray">
+        <item name="android:textColor">@color/body_text_disabled</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="body_text_fans_name">
+        <item name="android:textColor">@color/fan_list_name</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="body_text_film_name">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="body_text_fans_sign">
+        <item name="android:textColor">@color/fan_list_sign</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="body_text_black">
+        <item name="android:textColor">@color/body_text_1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="body_text_white">
+        <item name="android:textColor">@color/body_text_1_inverse</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="body_text_orange">
+        <item name="android:textColor">@color/text_orange_color</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="btn_blue">
+        <item name="android:background">@drawable/btn_blue_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="item_white_with_line">
+        <item name="android:background">@drawable/item_white_with_line_bg</item>
+    </style>
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimAmount">0</item>
+    </style>
+    <!-- ListView样式 -->
+    <style name="list_view_style" parent="@android:style/Widget.ListView">
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:scrollingCache">false</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <!-- <item name="android:divider">@drawable/line3</item> -->
+        <item name="android:divider">@null</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@drawable/photogrid_list_selector</item>
+        <item name="android:scrollbars">none</item>
+
+    </style>
+
+    <!-- ListView样式 2-->
+    <style name="list_view_style2" parent="@android:style/Widget.ListView">
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:scrollingCache">false</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <!-- <item name="android:divider">@drawable/line3</item> -->
+        <item name="android:divider">@null</item>
+       <!-- <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@drawable/photogrid_list_selector</item>-->
+        <item name="android:scrollbars">none</item>
+
+    </style>
+
+    <!-- ListView样式 3-->
+    <style name="list_view_style3" parent="@android:style/Widget.ListView">
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:scrollingCache">false</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:cacheColorHint">@color/app_blue_bg</item>
+         <item name="android:divider">@color/list_line</item>
+        <!--<item name="android:drawSelectorOnTop">true</item>-->
+         <!--<item name="android:listSelector">@android:color/transparent</item>-->
+        <item name="android:scrollbars">none</item>
+
+
+    </style>
+
+    <style name="PhotoGridLayout">
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@drawable/photogrid_list_selector</item>
+    </style>
+
+    <style name="red_bold_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="grey_bold_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="mine_left_text">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_common_color</item>
+    </style>
+    <style name="mine_right_text">
+        <item name="android:padding">@dimen/margin_5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/app_blue</item>
+    </style>
+    <style name="black_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/day</item>
+    </style>
+
+    <style name="white_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="white_on_18sp">
+        <item name="android:textSize">16sp</item>
+       <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textColor">@color/day_on</item>
+    </style>
+
+    <style name="white_on_margin">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/day_on</item>
+    </style>
+
+    <style name="common_text">
+        <item name="android:textColor">@color/day</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+</resources>

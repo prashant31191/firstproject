@@ -1,0 +1,122 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_blue_bg" >
+
+    <com.showu.common.widget.TitleWidget
+        android:id="@id/titleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        showu:center_view_text="@string/friend_addfriend"/>
+
+    <RelativeLayout
+        android:id="@+id/fragment_add_friendhome_search"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height_48"
+        style="@style/item_white_with_line"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_below="@+id/titleBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:text="@string/friend_searchadd"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_16"
+            android:id="@+id/fragment_user_home_next"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_add_friendhome_contact"
+        android:layout_below="@+id/fragment_add_friendhome_search"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height_48"
+        style="@style/item_white_with_line"
+        android:layout_marginTop="@dimen/margin_16" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:text="通讯录添加"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_16"
+            android:id="@+id/fragment_user_home_next"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/fragment_add_friendhome_sharefriend"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height_48"
+        style="@style/item_white_with_line"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_below="@+id/fragment_add_friendhome_search">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:drawableLeft="@drawable/mycountcrash"
+            android:text="@string/friend_shareToFriend"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_16"
+            android:id="@+id/imageView"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/fragment_add_friendhome_sharesina"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height_48"
+        style="@style/item_white_with_line"
+        android:layout_below="@+id/fragment_add_friendhome_sharefriend">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:drawableLeft="@drawable/mychit"
+            android:text="@string/friend_shareToSina"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_16"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

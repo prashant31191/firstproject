@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+    <com.showu.common.widget.TitleWidget
+            android:id="@id/titleBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            />
+
+
+
+    <RelativeLayout
+            android:id="@+id/timeLayout"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/titleBar"
+            android:layout_width="fill_parent"
+            android:background="@color/title_bar_bg"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/timeLayout"
+            android:layout_alignTop="@+id/timeLayout">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:id="@+id/cinemaName"
+                    android:textColor="@color/day"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                    android:id="@+id/hallName"
+                    android:textColor="@color/day"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                    android:id="@+id/time"
+                    android:textColor="@color/day"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/film_img"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"></ImageView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:id="@+id/submit_layout"
+            android:background="@color/title_bar_bg"
+            android:layout_width="fill_parent">
+
+        <Button
+                android:id="@+id/submit"
+                android:text="提交"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:background="@drawable/submit_button"
+                android:layout_width="wrap_content"></Button>
+
+        <TextView
+                android:id="@+id/seat"
+                android:textColor="@color/day"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/submit"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"></TextView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seat_layout"
+            android:layout_above="@id/submit_layout"
+            android:layout_below="@+id/timeLayout">
+
+        <com.showu.common.widget.SeatWidget
+                android:id="@+id/seatLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/activity_seat_cinemaName"/>
+
+        <ProgressBar
+                android:id="@+id/activity_seat_progress"
+                style="?android:attr/progressBarStyleInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+
+<TextView
+            android:layout_below="@id/titleBar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:text="场次已过期"
+            android:id="@+id/expired"></TextView></RelativeLayout>

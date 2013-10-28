@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/face_bg"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gv_face"
+        android:layout_width="fill_parent"
+        android:layout_height="220dip"
+        android:columnWidth="35dp"
+        style="@style/list_view_style"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="@dimen/margin_8" >
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/face_btn"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_input"
+            android:layout_width="wrap_content"
+            android:background="@null"
+            android:textColor="@color/face_btn_text"
+            android:layout_height="wrap_content"
+            android:text="键盘"
+          />
+
+        <Button
+            android:id="@+id/btn_normal_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/face_tip_icon"
+            android:textColor="@color/face_btn_text"
+            android:layout_weight="1"
+            android:text="表情" />
+
+        <Button
+            android:id="@+id/btn_emoji_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="@color/face_btn_text"
+            android:layout_weight="1"
+            android:text="Emoji" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_face_delete"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</LinearLayout>

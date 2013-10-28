@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@color/cinema_bg"
+    android:layout_height="fill_parent"
+    >
+
+    <com.showu.common.widget.RoteSeatView
+        android:id="@+id/seatview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:id="@+id/numberLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:background="@drawable/seat_num_bg" >
+    </RelativeLayout>
+
+</RelativeLayout>

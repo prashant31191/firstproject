@@ -1,0 +1,11 @@
+<project name="asmack" default="jar" basedir=".">
+	<property name="build" location="qsmack322"/>
+	<property name="jarName" location="asmack.jar"/>
+	<property name="jardir" location="jar"/>
+	<target name="init">
+		<mkdir dir="${jardir}"/>
+	</target>
+	<target name="jar" depends="init">
+		<jar jarfile="asmack.jar" basedir="${build}"/>
+	</target>
+</project>

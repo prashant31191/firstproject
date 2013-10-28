@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/close"
+            android:src="@drawable/close"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ImageView>
+
+        <TextView
+            android:id="@+id/text"
+            android:text="预告片/海报"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/blue_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_height="2dp"
+        android:layout_width="fill_parent"
+        android:src="@color/blue_image"></ImageView>
+
+    <RelativeLayout
+        android:background="@color/black"
+        android:layout_height="150dp"
+        android:layout_width="fill_parent">
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:id="@+id/film_front"/>
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/play_big"
+            android:layout_centerInParent="true"
+            android:id="@+id/play_button"></ImageView>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridView"
+        style="@style/PhotoGridLayout"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="@dimen/image_thumbnail_size"
+        android:horizontalSpacing="@dimen/image_thumbnail_spacing"
+        android:numColumns="3"
+        android:verticalSpacing="@dimen/image_thumbnail_spacing">
+    </GridView>
+</LinearLayout>

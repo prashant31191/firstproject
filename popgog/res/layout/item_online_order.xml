@@ -1,0 +1,134 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_blue_bg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="@dimen/item_height_30">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black_gray"
+                android:text="@string/film_order_date"/>
+
+            <TextView
+                android:id="@+id/item_onlineticket_order_date"
+                android:layout_width="fill_parent"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black"
+                android:text="2013-09-18"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="@dimen/item_height_30">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black_gray"
+                android:text="@string/film_order_no"/>
+
+            <TextView
+                android:id="@+id/item_onlineticket_order_no"
+                android:layout_width="fill_parent"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black"
+                android:text="1235566"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="@dimen/item_height_30">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black_gray"
+                android:text="@string/film_order_cinema"/>
+
+            <TextView
+                android:id="@+id/item_onlineticket_order_cinema"
+                android:layout_width="fill_parent"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black"
+                android:drawableRight="@drawable/nav_next"
+                android:text="市一宫"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_onlineticket_order"
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="@dimen/item_height_30">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black_gray"
+                android:text="@string/film_order_film"/>
+
+            <TextView
+                android:id="@+id/item_onlineticket_order_film"
+                android:layout_width="fill_parent"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black"
+                android:text="超人"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="@dimen/item_height_30">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black_gray"
+                android:text="@string/film_order_status"/>
+
+            <TextView
+                android:id="@+id/item_onlineticket_order_status"
+                android:layout_width="fill_parent"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black"
+                android:text="支付成功"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

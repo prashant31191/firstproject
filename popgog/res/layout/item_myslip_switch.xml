@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_linearlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical" >
+
+    <com.showu.common.widget.MySlipSwitch
+        android:id="@+id/item_myslipswitch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/item_myslip_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/item_myslipswitch"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="2dp"
+        android:paddingLeft="10dp"
+        android:text="已开"
+        android:textColor="#2c95e8"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/item_myslip_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/item_myslipswitch"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="2dp"
+        android:paddingRight="10dp"
+        android:text="已关"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="visible" />
+
+</RelativeLayout>

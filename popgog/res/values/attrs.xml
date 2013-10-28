@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleBar">
+
+        <!-- 设置左布局的背景，有默认背景 -->
+        <attr name="left_bg" format="reference" />
+        <!-- 设置左布局按钮的背景，有默认返回背景 -->
+        <attr name="left_view_bg" format="reference" />
+        <!-- 设置左布局按钮的文字 -->
+        <attr name="left_view_text" format="string" />
+        <!-- 设置左布局的是否可见，默认可见 -->
+        <attr name="left_visibility" format="string" />
+
+
+        <!-- 设置右布局按钮的背景 -->
+        <attr name="right_bg" format="reference" />
+        <!-- 设置右布局按钮的背景 -->
+        <attr name="right_view_bg" format="reference" />
+        <!-- 设置右布局按钮的文字 -->
+        <attr name="right_view_text" format="string" />
+        <!-- 设置左布局的可见性，默认可见 -->
+        <attr name="right_visibility" format="string" />
+
+
+        <!-- 设置中间布局的可见性 -->
+        <attr name="center_visibility" format="string" />
+        <!-- 设置中间Text的文字 -->
+        <attr name="center_view_text" format="string" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CircularImage">
+        <attr name="mask_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="round_background" format="boolean" />
+        <attr name="is_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+</resources>

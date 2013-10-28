@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="fill_parent"
+        android:background="#CDCDCD" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="fill_parent"
+        android:background="#CDCDCD" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/filmName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="fill_parent"
+        android:background="#CDCDCD" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/newPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:gravity="center"
+            android:textColor="@color/yellow_price" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="fill_parent"
+        android:background="#CDCDCD" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/select_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选座"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="fill_parent"
+        android:background="#CDCDCD" />
+
+</LinearLayout><!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/margin_5" >
+
+    <TextView
+        android:id="@+id/filmName"
+        android:text="asdla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filmName" >
+
+        <TextView
+            android:id="@+id/time"
+            android:text="asdla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:text="asdla"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_5" />
+
+        <TextView
+            android:id="@+id/newPrice"
+            android:text="asdla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/yellow_price" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/select_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="选座" />
+
+</RelativeLayout>
+-->

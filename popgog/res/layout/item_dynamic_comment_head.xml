@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_blue_bg"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/item_headlayout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/activity_dynamic_detail_icon_typelayout"
+            android:layout_width="50dp"
+            android:layout_centerVertical="true"
+            android:layout_height="50dp">
+
+
+            <ImageView
+                android:id="@+id/activity_dynamic_detail_icontype"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/dynamic_sign_type"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/activity_dynamic_detail_icon_typelayout">
+
+            <TextView
+                android:id="@+id/activity_dynamic_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:layout_marginLeft="@dimen/margin_8"
+                style="@style/body_text_fans_name"
+                android:layout_toRightOf="@+id/activity_dynamic_detail_head"/>
+
+            <ImageView
+                android:id="@+id/activity_dynamic_detail_head"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/defaul_head"
+                android:background="@drawable/dynamic_fanhead_bg"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/margin_16"
+        android:paddingLeft="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/activity_dynamic_detail_signlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/activity_dynamic_detail_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/body_text_fans_sign" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left"
+            android:id="@+id/activity_dynamic_detail_imglist">
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/activity_dynamic_detail_bottomlayout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_marginBottom="@dimen/margin_16"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_dynamic_detail_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black_gray" />
+
+            <TextView
+                android:id="@+id/activity_dynamic_detail_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black_gray"
+                android:textColor="@color/red"
+                android:visibility="visible"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:layout_toRightOf="@+id/activity_dynamic_detail_date"
+                android:text="删除"/>
+
+            <ImageView
+                android:id="@+id/activity_dynamic_detail_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/like"
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@+id/activity_dynamic_detail_comment"/>
+
+            <ImageView
+                android:id="@+id/activity_dynamic_detail_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/comment"
+
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_dynamic_detail_commenlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dynamic_comment_bg"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/activity_dynamic_detail_likelist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/like"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

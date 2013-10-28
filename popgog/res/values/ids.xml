@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<item type="id" name="titleBar"></item>
+    <item type="id" name="film_detail_image"></item>
+    <item type="id" name="showItem"></item>
+    <item type="id" name="ticketItem"></item>
+    <item type="id" name="cityItem"></item>
+    <item type="id" name="film_detail_text"></item>
+    <item type="id" name="play"></item>
+    <item type="id" name="show_seat"></item>
+    <item type="id" name="holder"></item>
+
+    <item type="id" name="commenttext"></item>
+    <item type="id" name="cdyid"></item>
+    <item type="id" name="commnet"></item>
+    <item type="id" name="commnets"></item>
+    <item type="id" name="toid"></item>
+
+
+</resources>

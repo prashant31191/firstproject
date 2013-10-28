@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/headsize_90">
+
+    <LinearLayout
+        android:id="@+id/item_nearby_person_headlayout"
+        android:layout_width="@dimen/headsize_90"
+        android:padding="@dimen/margin_8"
+        android:layout_height="@dimen/headsize_90">
+
+        <ImageView
+            android:id="@+id/item_nearby_person_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/defaul_head"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_nearby_person_nicknamelayout"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/item_nearby_person_headlayout"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_nearby_person_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/body_text_fans_name"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/item_blacklist_unblack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_orange_bg"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            style="@style/body_text_white"
+            android:text="解除"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

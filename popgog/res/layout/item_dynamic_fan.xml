@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/app_blue_bg"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/item_headlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/item_dynamic_icon_typelayout"
+            android:layout_width="@dimen/margin_50"
+            android:layout_centerVertical="true"
+            android:layout_height="@dimen/margin_50">
+
+            <ImageView
+                android:id="@+id/item_dynamic_icontype"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/dynamic_sign_type"/>
+
+        </RelativeLayout>
+
+
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/item_dynamic_icon_typelayout">
+
+            <TextView
+                android:id="@+id/item_dynamic_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:layout_marginLeft="@dimen/margin_8"
+                style="@style/body_text_fans_name"
+                android:layout_toRightOf="@+id/item_dynamic_head"/>
+
+            <ImageView
+                android:id="@+id/item_dynamic_head"
+                android:layout_width="@dimen/margin_50"
+                android:layout_height="@dimen/margin_50"
+                android:layout_centerVertical="true"
+                android:src="@drawable/dynamic_fanhead_bg"
+                />
+
+        </RelativeLayout>-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/likelayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginLeft="@dimen/margin_8"
+
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/item_dynamic_imglist">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_dynamic_commentlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:background="@drawable/shap_agle_comment_bg"
+            android:visibility="visible"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/item_dynamic_likePeoaLayout"
+                android:visibility="gone"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:id="@+id/likeicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/liked_tips"/>
+
+                <TextView
+                    android:id="@+id/item_dynamic_likepeople"
+                    android:layout_toRightOf="@+id/likeicon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_fans_sign"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="@color/list_line"
+                    android:layout_below="@id/likeicon"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_height="0.1dp"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/item_dynamic_commentlist"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_dynamic_bottomlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item_dynamic_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/body_text_black_gray"/>
+
+            <TextView
+                android:id="@+id/item_dynamic_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除"
+                android:visibility="gone"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/item_dynamic_date"
+                android:textColor="@color/red"
+                style="@style/body_text_black_gray"/>
+
+            <ImageView
+                android:id="@+id/item_dynamic_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/like"
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@+id/item_dynamic_comment"/>
+
+            <ImageView
+                android:id="@+id/item_dynamic_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/comment"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

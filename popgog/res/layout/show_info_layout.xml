@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/day_agle_bg"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/today"
+            android:layout_width="@dimen/day_weight"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="今天"
+            android:textColor="@color/day"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tomorrow"
+            android:layout_width="@dimen/day_weight"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/day_pading"
+            android:gravity="center"
+            android:text="明天"
+            android:textColor="@color/day"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/afterTomorow"
+            android:layout_width="@dimen/day_weight"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/day_pading"
+            android:gravity="center"
+            android:text="后天"
+            android:textColor="@color/day"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/showNumberLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,257 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/app_blue_bg"
+        android:layout_height="match_parent"
+        >
+
+    <com.showu.common.widget.TitleWidget
+            android:id="@id/titleBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:weightSum="15"
+            android:gravity="center_vertical"
+            android:background="@color/cinema_bg"
+            android:id="@+id/help_layout">
+
+        <ImageView
+                android:id="@+id/view_edit"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/key_btn"
+                android:layout_width="wrap_content"></ImageView>
+
+        <Button
+                android:id="@+id/view_activity"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:gravity="center"
+                android:background="@null"
+                android:drawableLeft="@drawable/activity_icon"
+                android:textColor="@color/white"
+                android:text="@string/view_activity"
+                android:layout_width="wrap_content"></Button>
+
+        <Button
+                android:id="@+id/view_buy_tickit"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@null"
+                android:drawableLeft="@drawable/tickit_icon"
+                android:gravity="center"
+                android:text="@string/view_buy_ticket"
+                android:layout_width="wrap_content"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/textEdit"
+            android:layout_width="fill_parent">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:background="@color/chat_edit_bg"
+                android:visibility="gone"
+                android:padding="@dimen/margin_8"
+                android:gravity="center"
+                android:id="@+id/voiceLayout">
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/voice_bg"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/voice_button"
+                    android:text="@string/cancel"
+                    android:id="@+id/cancel"></Button>
+
+            <LinearLayout
+                    android:layout_height="40dp"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:layout_marginRight="@dimen/margin_8"
+                    android:gravity="center"
+                    android:background="@drawable/voice_bg"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/voice_button"
+                        android:gravity="center"
+                        android:text="@string/press_say">
+                </TextView>
+
+                <ImageView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_8"
+                        android:gravity="center"
+                        android:src="@drawable/voice_press_icon"
+                        >
+                </ImageView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/editLayout"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:weightSum="10"
+                android:gravity="center"
+                android:padding="@dimen/margin_3"
+                android:background="@color/chat_edit_bg"
+                android:layout_width="fill_parent">
+
+            <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/chat_more"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/more_icon"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:layout_width="wrap_content"></ImageView>
+            <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/chat_account_layout"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/account_input"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:layout_width="wrap_content"></ImageView>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="8"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/edit_bg"
+                    android:layout_height="wrap_content">
+
+                <EditText
+                        android:id="@+id/editMessage"
+                        android:layout_height="fill_parent"
+                        android:background="@null"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"></EditText>
+
+                <ImageView
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/face_icon"
+                        android:id="@+id/face"></ImageView>
+
+            </LinearLayout>
+
+
+            <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/chat_voice"
+                    android:src="@drawable/btn_voic_icon"
+                    android:layout_width="wrap_content"></ImageView>
+
+            <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    android:src="@drawable/send_icon"
+                    android:id="@+id/chat_send"
+                    android:layout_width="wrap_content"></ImageView>
+
+        </LinearLayout>
+
+
+        <com.showu.common.widget.FaceGridView
+                android:id="@+id/fgv_face"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+        <LinearLayout
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/moreLayout"
+                android:background="@color/chat_edit_bg"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/chat_camara"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_16"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginBottom="@dimen/margin_16"
+                    android:background="@drawable/camara_icon"
+                    android:layout_width="wrap_content"></Button>
+
+            <Button
+                    android:id="@+id/chat_photo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_16"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginBottom="@dimen/margin_16"
+                    android:background="@drawable/photo_icon"
+                    android:layout_width="wrap_content"></Button>
+
+            <Button
+                    android:id="@+id/chat_location"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_16"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginBottom="@dimen/margin_16"
+                    android:background="@drawable/location_icon"
+                    android:layout_width="wrap_content"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+    android:id="@+id/listView"
+    android:layout_below="@id/titleBar"
+    android:layout_above="@id/textEdit"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"></ListView>
+
+    <LinearLayout
+            android:id="@+id/recoderLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/textEdit"
+            android:layout_below="@+id/titleBar"
+            android:background="#80000000"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        <ImageView
+                android:id="@+id/showRecoder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/message_recoder"/>
+
+        <TextView
+                android:id="@+id/recoder_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</RelativeLayout>

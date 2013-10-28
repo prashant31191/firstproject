@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_blue_bg"
+    android:orientation="vertical" >
+
+    <com.showu.common.widget.TitleWidget
+        android:id="@id/titleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        showu:center_view_text="@string/user_myticket"/>
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/margin_32"
+        android:id="@+id/fragment_user_online_order"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height_48"
+        style="@style/item_white_with_line" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            style="@style/body_text_black"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_toLeftOf="@+id/next"
+            android:singleLine="true"
+            android:text="@string/user_info_onlineticket"/>
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_16"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_user_eticket_order"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height_48"
+        style="@style/item_white_with_line" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            style="@style/body_text_black"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_toLeftOf="@+id/next"
+            android:singleLine="true"
+            android:text="@string/user_info_eticket"/>
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_16"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

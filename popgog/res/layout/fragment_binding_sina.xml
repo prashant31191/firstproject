@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#053350" >
+
+    <com.showu.common.widget.TitleWidget
+        android:id="@id/titleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        showu:right_view_text="解绑"
+        showu:center_view_text="新浪微博"/>
+
+    <RelativeLayout
+        android:id="@+id/fragment_regist_phone_layout"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/titleBar" >
+
+        <ImageView
+            android:id="@+id/sina_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/binding_weibo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/sina_logo"
+            android:textColor="@color/orange"
+            android:text="已绑定新浪微博"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

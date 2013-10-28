@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@drawable/bottom_bar_item_on"
+    android:layout_height="@dimen/bottom_tabs_height">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/bottom_tabs_item_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/messageNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/number_text_size"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/bottom_tabs_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bottom_tabs_item_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-10dp"
+            android:textColor="@color/bottom_tabs_item_text_pressed"
+            android:textSize="@dimen/tabs_text"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

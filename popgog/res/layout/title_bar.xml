@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:background="@color/title_bar_bg">
+
+    <RelativeLayout
+        android:id="@+id/left"
+        android:layout_width="@dimen/title_item_width"
+        android:layout_height="@dimen/title_item_height"
+        android:background="@drawable/pressed_dark_bg">
+
+        <Button
+            android:id="@+id/left_view"
+            style="@style/title_view_left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:singleLine="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/center_view"
+            style="@style/title_view_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:ellipsize="end"
+            android:maxEms="8"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/right"
+        android:layout_width="@dimen/title_item_height"
+        android:layout_height="@dimen/title_item_width"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/pressed_dark_bg">
+
+        <Button
+            android:id="@+id/right_view"
+            style="@style/title_view_right"
+            android:background="@drawable/tran_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

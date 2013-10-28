@@ -1,0 +1,164 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#053350">
+
+    <com.showu.common.widget.TitleWidget
+        android:id="@id/titleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        showu:center_view_text="分享爆谷号"/>
+
+    <ScrollView
+        android:layout_below="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/orange"
+                android:text="绑定微博成功,把爆谷号分享给好友吧!"/>
+
+            <RelativeLayout
+                android:id="@+id/fragment_regist_phone_layout"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/sina_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sina_bind_success"/>
+                    <ImageView
+                        android:id="@+id/fragment_binding_sina_share_head"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="54dp"
+                        android:src="@drawable/defaul_head"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_alignBottom="@+id/sina_bg"
+                    android:background="#a0000000"
+                    android:padding="8dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/fragment_binding_sina_share_nick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="天边的菊花"/>
+
+                    <TextView
+                        android:id="@+id/fragment_binding_sina_share_popid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="爆谷号:k000"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/tipslayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/fragment_regist_phone_layout"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#1D6A9A"
+                    android:layout_gravity="center_horizontal"
+                    android:text="一场电影，一排队伍，一张影票，一人观影..."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#1D6A9A"
+                    android:layout_gravity="center_horizontal"
+                    android:text="从今天起#爆谷电影#让我们一起看电影"/>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_below="@+id/tipslayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/attendlayout"
+                android:layout_margin="8dp"
+                android:padding="1dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shap_agle_black_bg">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="关注@爆谷电影"
+                        android:layout_marginLeft="4dp"
+                        android:textSize="20sp"
+                        style="@style/body_text_white"/>
+
+                    <ImageView
+                        android:id="@+id/fragment_binding_sina_share_attent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/weibo_attent"/>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/fragment_binding_sina_share_share"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/body_text_white"
+                android:layout_below="@+id/attendlayout"
+                android:text="分享微博"
+                android:background="@drawable/btn_orange_bg"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

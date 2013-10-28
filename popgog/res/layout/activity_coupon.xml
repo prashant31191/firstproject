@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/app_blue_bg">
+
+    <com.showu.common.widget.TitleWidget
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/titleBar"
+        showu:center_view_text="代金券"/>
+
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_coupon_no"
+            android:layout_alignTop="@+id/activity_coupon_save"
+            android:layout_alignBottom="@+id/activity_coupon_save"
+            android:layout_marginRight="8dp"
+            android:paddingLeft="8dp"
+            android:hint="输入兑换券号码"
+            style="@style/body_text_black"
+            android:layout_toLeftOf="@+id/activity_coupon_save"
+            android:background="@drawable/shap_agle_white_bg"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_blue_bg"
+            android:text="保存"
+            style="@style/body_text_white"
+            android:id="@+id/activity_coupon_save"/>
+
+    </RelativeLayout>
+
+    <com.showu.baogu.util.view.MyXListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/list_view_style"
+        android:id="@+id/activity_coupon_listv"/>
+
+</LinearLayout>

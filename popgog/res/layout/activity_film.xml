@@ -1,0 +1,256 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#021928">
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/title_bar_bg"
+        >
+
+        <Button
+            style="@style/body_text_white"
+            android:background="@null"
+            android:text="广州"
+            android:drawableLeft="@drawable/city_select"
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+
+                <Button
+                    android:id="@+id/will_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tab_bg_trans"
+                    android:text="@string/movie_palay_will"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <!-- <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBottom="@+id/tab_layout"
+                 android:layout_alignLeft="@+id/tab_layout"
+                 android:layout_alignRight="@+id/tab_layout"
+                 android:orientation="horizontal"
+                 android:weightSum="2" >
+
+                 <ImageView
+                     android:id="@+id/activity_film_tab_img"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:background="@drawable/tab_in" />
+             </LinearLayout>-->
+
+        </RelativeLayout>
+
+        <!-- <RelativeLayout
+             android:id="@+id/right_layout"
+             android:layout_width="@dimen/title_item_height"
+             android:layout_height="@dimen/title_item_width"
+             android:layout_alignParentRight="true"
+             android:background="@drawable/pressed_dark_bg" >
+
+             <View
+                 android:id="@+id/right_vetical_line"
+                 android:layout_width="0.1dp"
+                 android:layout_height="fill_parent"
+                 android:layout_alignParentLeft="true"
+                 android:background="@color/black" />
+
+             <Button
+                 android:id="@+id/right_btn"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:clickable="false"
+                 android:gravity="center"
+                 android:singleLine="true"
+                 android:textColor="@color/white" />
+         </RelativeLayout>-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/galleryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titleLayout"
+        android:orientation="vertical"
+        android:background="#021928"
+        android:weightSum="10">
+
+
+        <RelativeLayout
+            android:id="@+id/scrolllayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/title_bar_bg"
+            android:gravity="center_vertical"
+            android:layout_weight="8.5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/film_addme_layout">
+
+                <com.showu.common.widget.ElasticHScrollView
+                    android:id="@+id/activity_film_user_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <!-- <LinearLayout
+                         android:id="@+id/activity_film_userheads"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="horizontal">
+
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/ic_launcher"/>
+
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/ic_launcher"/>
+
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/ic_launcher"/>
+
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/ic_launcher"/>
+
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/ic_launcher"/>
+
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/ic_launcher"/>
+
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/ic_launcher"/>
+
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/ic_launcher"/>
+
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/ic_launcher"/>
+
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/ic_launcher"/>
+
+                     </LinearLayout>
+ -->
+
+                    <LinearLayout
+                        android:id="@+id/activity_film_userheads"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                </com.showu.common.widget.ElasticHScrollView>
+
+                <!--<com.showu.common.widget.MyScroll
+                    android:id="@+id/activity_film_user_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:fillViewport="false"/>-->
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/film_addme_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/film_addme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/film_hall"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="@dimen/bottom_tabs_height"
+            android:background="@drawable/film_index_bg"
+            android:gravity="center">
+
+            <com.showu.common.widget.PagerContainer
+                android:id="@+id/pager_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <android.support.v4.view.ViewPager
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="top"/>
+            </com.showu.common.widget.PagerContainer>
+
+            <ListView
+                android:id="@+id/listView"
+                style="@style/list_view_style"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

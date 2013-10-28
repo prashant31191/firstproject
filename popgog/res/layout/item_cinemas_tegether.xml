@@ -1,0 +1,46 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_16">
+
+    <LinearLayout
+        android:id="@+id/cinema_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/margin_5"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/item_cinemas_together_distance">
+
+        <TextView
+            android:id="@+id/item_cinemas_together_cinemaName"
+            style="@style/body_text_film_name"
+            android:text="sdfasdfasdfsdlfasdjl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/item_cinemas_together_location"
+            style="@style/common_text"
+            android:text="sdfasdfasdlfkjdlfdsfs"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/margin_4"
+            android:drawableLeft="@drawable/location"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_cinemas_together_distance"
+        style="@style/common_text"
+        android:text="1.2km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

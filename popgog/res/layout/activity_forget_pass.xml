@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_shallow"
+    android:orientation="vertical" >
+
+ <com.showu.common.widget.TitleWidget
+            android:id="@id/titleBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            showu:center_view_text="忘记密码"
+            />
+
+    <LinearLayout
+        android:id="@+id/layout_emailcheck"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/et_account"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_regist_account"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forget_pass_prompt" />
+
+        <Button
+            style="@style/white_18sp"
+            android:id="@+id/btn_resetpass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_green"
+            android:text="@string/reset_password" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_checkcode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_authcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_auth_code"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/auth_suc_prompt" />
+
+        <Button
+            style="@style/white_18sp"
+            android:id="@+id/btn_checkcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_green"
+            android:text="@string/btn_code_check" />
+    </LinearLayout>
+
+</LinearLayout>

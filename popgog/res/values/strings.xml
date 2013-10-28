@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">popgog</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Bottom tabs text -->
+    <string name="tabs_text_film">电影</string>
+    <string name="tabs_text_message">消息</string>
+    <string name="tabs_text_friend">影友</string>
+    <string name="tabs_text_user">资料</string>
+
+    <string name="tabs_tag_film">1</string>
+    <string name="tabs_tag_message">2</string>
+    <string name="tabs_tag_friend">3</string>
+    <string name="tabs_tag_user">4</string>
+    <string name="city">城市</string>
+    <string name="current_city">当前GPS定位城市</string>
+    <string name="hot_city">热门城市</string>
+    <string name="change_city">切换城市</string>
+    <!-- Alter Dialog Text -->
+    <string name="yes">好</string>
+    <string name="no">不</string>
+
+    <string name="promt">请选择代金券</string>
+
+    <!-- Login Text -->
+    <string name="unlogin_tips">还没有登录,需要登录吗?</string>
+    <string name="login">登录</string>
+    <string name="logout">登出</string>
+    <string name="logint_name">名字</string>
+    <string name="psw">密码</string>
+    <string name="login_baogu">登陆爆谷</string>
+    <string name="login_phone">手机号码</string>
+    <string name="login_psw">登陆密码</string>
+    <string name="login_fail_weibo">微博登陆失败</string>
+    <string name="login_fail_qq">qq登陆失败</string>
+    <string name="login_other_goto_baogu">进入爆谷</string>
+    <string name="login_other_logined">完成登陆</string>
+    <string name="back">返回</string>
+    <string name="baogu_tips">票价含影城结算价，技术服务费、通讯费，最终解释权归爆谷电影所有</string>
+    <!-- Regist Text  -->
+    <string name="regist">注册</string>
+    <string name="regist_psw">密码(不少于4位)</string>
+    <string name="regist_name">名字</string>
+    <string name="regist_cofirm">确认注册</string>
+    <string name="regist_pop">注册爆谷</string>
+    <string name="regist_phone">注册手机号码</string>
+    <string name="regist_phone_declare">手机号码将作为登陆账号使用。\n注册即表示同意爆谷电影的用户协议。</string>
+    <string name="regist_phone_getAuthNo">获取验证码</string>
+    <string name="regist_auth_sended_tips">已发送验证码至</string>
+    <string name="regist_auth_input_tips">请输入收到的手机验证码</string>
+    <string name="regist_auth_null">验证码不能为空</string>
+    <string name="regist_auth_confirm">确认认证</string>
+    <string name="regist_auth_confirm_success">验证成功,请您填写个人资料</string>
+    <string name="regist_auth_confirm_fail">验证失败,请您重新验证</string>
+    <string name="regist_auth_no">认证码</string>
+    <string name="regist_phone_null">手机号码不能为空</string>
+    <string name="regist_phone_getAuthNo_fail">获取手机验证码失败</string>
+    <string name="regist_phone_getAuthNo_success_tips">验证码正在发送到手机,请稍后注意查收</string>
+    <string name="regist_phone_upload_success">图片上传成功</string>
+    <string name="regist_phone_upload_fail">图片上传失败</string>
+
+    <!-- User Text -->
+    <string name="user_info">资料</string>
+    <string name="user_myticket">我的电影票</string>
+    <string name="user_countcrash">账户余额</string>
+    <string name="user_count_recharge">账户充值</string>
+    <string name="user_countcrash_current">账户当前余额：</string>
+    <string name="user_chit">代金券</string>
+    <string name="user_info_person">个人信息</string>
+    <string name="user_info_person_update">个人信息修改</string>
+    <string name="user_info_head">头像</string>
+    <string name="user_info_name">名字</string>
+    <string name="user_info_baogu_no">爆谷号</string>
+    <string name="user_info_self_sign">个性签名</string>
+    <string name="user_info_sina_weibo">新浪微博</string>
+    <string name="user_info_phone_bind">手机绑定</string>
+    <string name="user_info_onlineticket">在线订座订单</string>
+    <string name="user_info_eticket">电子券订单</string>
+    <string name="user_info_unbind">未绑定</string>
+    <string name="user_info_bind">已绑定</string>
+    <string name="user_forget_phone_tips">请输入接收的手机号</string>
+    <string name="user_forget_send">发送</string>
+    <string name="user_forget_verifycode_accept">请输入接收到的验证码</string>
+    <string name="user_forget_verifycode">验证码</string>
+    <string name="user_forget_new_psw">新密码</string>
+    <string name="bind_wei_bo_success">绑定微博成功</string>
+    <string name="count_recharge">账户充值</string>
+
+    <!-- FilmBean Ticket -->
+    <string name="film_online_order">在线选座订单</string>
+    <string name="film_order_date">下单时间:</string>
+    <string name="film_order_no">订单号:</string>
+    <string name="film_order_cinema">影院:</string>
+    <string name="film_order_film1">影片:</string>
+    <string name="film_order_film">电影:</string>
+    <string name="film_order_status">状态:</string>
+    <string name="film_order_type">类型:</string>
+    <string name="film_order_screen">场次:</string>
+    <string name="film_order_seat">座位:</string>
+    <string name="film_order_phone">手机:</string>
+    <string name="film_order_sigle">单价:</string>
+    <string name="film_order_validate">周期:</string>
+    <string name="film_order_count">总额:</string>
+    <string name="film_order_ticketno">取票号:</string>
+    <string name="film_order_sayforfriend">告诉好友</string>
+    <string name="film_order_howtogetticket">如何取票</string>
+    <string name="film_order_orderdetail">订单详情</string>
+    <string name="film_order_eticketdetail">电子券订单</string>
+
+    <!-- friend -->
+    <string name="friend_friend">影友</string>
+    <string name="friend_myfriend">我的影友</string>
+    <string name="friend_nearbyfriend">附近的人</string>
+    <string name="friend_cinemacircle">影圈动态</string>
+    <string name="friend_remark">备注</string>
+    <string name="friend_remark_name">备注名:</string>
+    <string name="friend_save">保存</string>
+    <string name="friend_addfriend">添加好友</string>
+    <string name="friend_searchadd">搜索添加</string>
+    <string name="friend_shareToFriend">分享到朋友圈</string>
+    <string name="friend_shareToSina">分享到新浪微博</string>
+    <string name="friend_search_friend">搜索影友</string>
+    <string name="friend_popid_name">爆谷号或者名字</string>
+    <string name="friend_search">搜索</string>
+
+    <!-- Fan -->
+    <string name="fan_dynamic">动态</string>
+    <string name="fan_info_detail">详细资料</string>
+    <string name="fan_nearby_person">附近的人</string>
+    <string name="fan_verified">通过验证</string>
+    <string name="fan_forbid_list">加入黑名单</string>
+    <string name="fan_sayhi">打招呼</string>
+    <string name="fan_report">举报</string>
+    <string name="fan_send_msg">发送消息</string>
+    <string name="fan_attent">关注</string>
+    <string name="fan_unattent">取消关注</string>
+    <string name="fan_sayhi_content">给TA说句话打个招呼</string>
+
+    <!-- Cinema Circle -->
+    <string name="cinema_circle_dynamic">影圈动态</string>
+
+    <!--net info-->
+    <string name="net_error">网络错误!</string>
+    <string name="loading_more_data">正在加载更多数据</string>
+
+    <string name="sex">性别</string>
+    <string name="sex_male">男</string>
+    <string name="sex_female">女</string>
+
+    <!--message-->
+    <string name="message">消息</string>
+    <string name="cancel">取消</string>
+    <string name="press_say">按住说话  </string>
+    <string name="delete_message_tip">删除消息</string>
+    <string name="empty_message_tip">请输入发送内容</string>
+    <string name="throu_check">通过验证</string>
+    <string name="send_fail">发送失败</string>
+    <string name="group_chat_setting">群聊设置</string>
+    <string name="group_chat_name">群聊名称</string>
+    <string name="group_message_notifycation">消息通知</string>
+    <string name="group_delete">删除并退出</string>
+    <string name="view_activity">查看活动</string>
+    <string name="view_buy_ticket">购买电子券</string>
+    <string name="recoment_account">推荐优惠账号</string>
+    <!--setting-->
+    <string name="autoupdate">自动更新</string>
+    <string name="account_manager">账号管理</string>
+    <string name="message_setting">消息设置</string>
+    <string name="sys_setting">系统设置</string>
+    <string name="shake">振动</string>
+    <string name="sound_effect">音效</string>
+    <string name="banding_emailorphone_forget">如果是微博或者QQ登录，需要绑定手机才能进行密码设置</string>
+    <string name="input_old_pass">请输入旧密码</string>
+    <string name="input_new_pass">请输入新密码</string>
+    <string name="input_repeat_pass">请重复一次新密码</string>
+    <string name="input_regist_account">请输入你的注册手机号</string>
+    <string name="forget_pass_prompt">密码重置链接将发送到你注册时填写的手机</string>
+    <string name="reset_password">重置密码</string>
+    <string name="input_auth_code">请输入你的验证码</string>
+    <string name="input_veri_code">填写验证码</string>
+    <string name="auth_suc_prompt">验证成功后将返回登录页面，请您使用验证码登录，登录成功后可在设置里修改密码</string>
+    <string name="btn_code_check">验证</string>
+    <string name="modify_pass_success">密码修改成功</string>
+    <string name="modify_pass_fail">密码修改失败</string>
+    <string name="reset_pass_success">重置密码成功</string>
+    <string name="reset_pass_fail">重置密码失败,请检查输入的验证码</string>
+    <string name="phone_null">请输入电话号码</string>
+    <string name="code_null">请输入验证码</string>
+
+    <!-- XListView -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+
+    <!--film-->
+    <string name="movie_palay_will">电影</string>
+    <string name="app_name">爆谷电影</string>
+    <string name="director">导演：</string>
+    <string name="actorlist">版本：</string>
+    <string name="area">地区：</string>
+    <string name="typelist">类型：</string>
+    <string name="showdate">首映：</string>
+    <string name="flanguage">片长：</string>
+    <string name="langandlong">%1$s%2$s/%3$d分钟</string>
+    <string name="introduction">剧情简介</string>
+    <string name="film_introduction">影院简介</string>
+    <string name="nearbycinema">附近影院</string>
+    <string name="nowNumber">上映%1$s部,共%2$s场</string>
+    <string name="allcinema">查看所有影院</string>
+    <string name="havenonumberinfo">暂时无法获取场次信息</string>
+    <string name="new_comment">最新点评</string>
+    <string name="no_comment">暂无点评,赶快抢沙发</string>
+    <string name="film_title">影片详情</string>
+    <string name="film_description">影院特色</string>
+    <string name="cinema_title">影院详情</string>
+    <string name="comment_detail_title">点评详情</string>
+    <string name="movie_schedule">电影排期</string>
+    <string name="cinema">影院</string>
+    <string name="onlineSeat">发布观影活动</string>
+    <string name="onlinePay">在线支付</string>
+    <string name="want_see_text">%1$d人准备去看</string>
+    <string name="tik">/张</string>
+    <string name="select_pay_type">选择支付方式</string>
+    <string name="alipy_client">支付宝客户端支付</string>
+    <string name="alipy_online">支付宝客在线</string>
+    <string name="unition_pay">银联手机在线支付</string>
+    <string name="account_pay">从账户余额中扣除</string>
+    <string name="select_less">选择优惠</string>
+    <string name="sure_pay">确认支付</string>
+    <string name="seat_error">请选择合法的位置</string>
+    <string name="share_tip">朋友们,谁想跟我一起看电影</string>
+    <string name="pay_tips">1.座位锁定成功,请在15分钟内完成支付,超时系统将释放您选择的座位.\n\n2.请仔细核对您的购票信息,影票一旦购买成功,不退不换</string>
+    <!-- 支付宝 -->
+    <string name="activity_remote_service_binding">AppDemo4</string>
+    <string name="remote_call_failed">Failure calling remote service</string>
+    <string name="partnerHint">"partner"</string>
+    <string name="sellerHint">"seller"</string>
+    <string name="out_trade_noHint">"out_trade_no"</string>
+    <string name="subjectHint">"subject"</string>
+    <string name="bodyHint">"body"</string>
+    <string name="total_feeHint">"total_fee"</string>
+    <string name="notify_urlHint">"notify_url"</string>
+    <string name="charsetHint">"charset"</string>
+    <string name="signTypeHint">"signType"</string>
+    <string name="confirm_install_hint">"安装提示"</string>
+    <string name="confirm_install">"为保证您的交易安全，需要您安装支付宝安全支付服务，才能进行付款。\n\n点击确定，立即安装。"</string>
+    <string name="Ensure">"确定"</string>
+    <string name="Cancel">"取消"</string>
+    <string name="prompt">提示</string>
+    <string name="ok">确定</string>
+    <string name="check_sign_failed">您的订单信息已被非法篡改。</string>
+    <string name="pay_fail">支付失败</string>
+    <string name="allredy_pay">订单已支付</string>
+    <string name="time_out">已经超过15分钟,不能进行付款</string>
+</resources>

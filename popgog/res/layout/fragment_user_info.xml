@@ -1,0 +1,290 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:showu="http://schemas.android.com/apk/res/com.showu.baogu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_blue_bg"
+    android:orientation="vertical" >
+
+    <com.showu.common.widget.TitleWidget
+        android:id="@id/titleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        showu:center_view_text="@string/user_info_person"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_blue_bg" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/fragment_user_info_headlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/user_head_layout_height"
+                android:layout_marginTop="@dimen/margin_32"
+                style="@style/item_white_with_line"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fragment_user_info_name"
+                    android:layout_width="@dimen/user_text_width"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    style="@style/body_text_black_gray"
+                    android:text="@string/user_info_head"/>
+
+                <ImageView
+                    android:id="@+id/fragment_user_info_head"
+                    android:layout_width="@dimen/headsize_90"
+                    android:layout_height="@dimen/headsize_90"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginTop="@dimen/margin_4"
+                    android:layout_marginBottom="@dimen/margin_4"
+                    android:layout_toRightOf="@+id/fragment_user_info_name"
+                    android:src="@drawable/defaul_head"/>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nav_next"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_8"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fragment_user_info_nick_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height_48"
+                style="@style/item_white_with_line"
+                android:layout_below="@+id/fragment_user_info_headlayout">
+
+                <TextView
+                    android:id="@+id/name_placer"
+                    android:layout_width="@dimen/user_text_width"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_black_gray"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:text="@string/user_info_name"/>
+
+                <TextView
+                    android:id="@+id/fragment_user_info_nick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    style="@style/body_text_black"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_toRightOf="@+id/name_placer"
+
+                    android:layout_toLeftOf="@+id/fragment_user_info_next"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nav_next"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_8"
+                    android:id="@+id/fragment_user_info_next"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fragment_user_info_popid_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height_48"
+                style="@style/item_white_with_line"
+                android:layout_below="@+id/fragment_user_info_nick_layout">
+
+                <TextView
+                    android:id="@+id/name_placer"
+                    android:layout_width="@dimen/user_text_width"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_black_gray"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:text="@string/user_info_baogu_no"/>
+
+                <TextView
+                    android:id="@+id/fragment_user_info_popid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    style="@style/body_text_black"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_toRightOf="@+id/name_placer"
+                    android:layout_toLeftOf="@+id/imageView"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nav_next"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_8"
+                    android:id="@+id/imageView"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fragment_user_info_sign_sexlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height_48"
+                style="@style/item_white_with_line"
+                android:layout_marginTop="@dimen/margin_32"
+                android:layout_below="@+id/fragment_user_info_popid_layout">
+
+                <TextView
+                    android:id="@+id/name_placer"
+                    android:layout_width="@dimen/user_text_width"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_black_gray"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:text="性别"/>
+
+                <TextView
+                    android:id="@+id/fragment_user_info_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    style="@style/body_text_black"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_toRightOf="@+id/name_placer"
+                    android:singleLine="true"
+                    android:hint="未知"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/fragment_user_info_sign_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height_48"
+                style="@style/item_white_with_line"
+                android:layout_below="@+id/fragment_user_info_sign_sexlayout">
+
+                <TextView
+                    android:id="@+id/name_placer"
+                    android:layout_width="@dimen/user_text_width"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_black_gray"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:text="@string/user_info_self_sign"/>
+
+                <TextView
+                    android:id="@+id/fragment_user_info_sign"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    style="@style/body_text_black"
+                    android:layout_toLeftOf="@+id/next"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_toRightOf="@+id/name_placer"
+                    android:singleLine="true"
+                    android:hint="点击修改签名"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nav_next"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/next"
+                    android:layout_marginRight="@dimen/margin_8"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fragment_user_info_sinaweibo_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height_48"
+                style="@style/item_white_with_line"
+                android:layout_below="@+id/fragment_user_info_sign_layout">
+
+                <TextView
+                    android:id="@+id/name_placer"
+                    android:layout_width="@dimen/user_text_width"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_black_gray"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:text="@string/user_info_sina_weibo"/>
+
+                <TextView
+                    android:id="@+id/fragment_user_info_sinaweibo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    style="@style/body_text_black"
+                    android:drawableLeft="@drawable/sina_v"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_toRightOf="@+id/name_placer"
+                    android:layout_toLeftOf="@+id/next"
+                    android:singleLine="true"
+                    android:text="未绑定"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nav_next"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/next"
+                    android:layout_marginRight="@dimen/margin_8"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fragment_user_info_phonebind_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height_48"
+                style="@style/item_white_with_line"
+                android:layout_below="@+id/fragment_user_info_sinaweibo_layout">
+
+                <TextView
+                    android:id="@+id/name_placer"
+                    android:layout_width="@dimen/user_text_width"
+                    android:layout_height="wrap_content"
+                    style="@style/body_text_black_gray"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:text="@string/user_info_phone_bind"/>
+
+                <TextView
+                    android:id="@+id/fragment_user_info_phonebind"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    style="@style/body_text_black"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_toRightOf="@+id/name_placer"
+                    android:layout_toLeftOf="@+id/next"
+                    android:singleLine="true"
+                    android:hint="@string/user_info_unbind"/>
+
+                <ImageView
+                    android:id="@+id/next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nav_next"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_8"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
