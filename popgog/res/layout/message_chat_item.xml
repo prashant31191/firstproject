@@ -5,12 +5,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-    <com.showu.common.widget.PressImageView
+    <com.qinnuan.common.widget.PressImageView
             android:id="@+id/headView"
             android:src="@drawable/defaul_head"
             android:layout_width="@dimen/headsize"
             android:layout_height="@dimen/headsize"
-            ></com.showu.common.widget.PressImageView>
+            ></com.qinnuan.common.widget.PressImageView>
 
     <TextView
             android:id="@+id/name"

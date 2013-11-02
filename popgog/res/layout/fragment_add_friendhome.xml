@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_blue_bg" >
 
-    <com.showu.common.widget.TitleWidget
+    <com.qinnuan.common.widget.TitleWidget
         android:id="@id/titleBar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

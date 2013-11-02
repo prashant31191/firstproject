@@ -12,8 +12,8 @@
     </application>
     <!--
     This declares that this application uses the instrumentation test runner targeting
-    the package of com.showu.baogu.  To run the tests use the command:
-    "adb shell am instrument -w com.showu.baogu.tests/android.test.InstrumentationTestRunner"
+    the package of com.showu.engine.  To run the tests use the command:
+    "adb shell am instrument -w com.showu.engine.tests/android.test.InstrumentationTestRunner"
     -->
     <instrumentation
             android:name="android.test.InstrumentationTestRunner"

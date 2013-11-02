@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_blue_bg" >
 
-    <com.showu.common.widget.TitleWidget
+    <com.qinnuan.common.widget.TitleWidget
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@id/titleBar"/>
@@ -17,7 +17,7 @@
         android:layout_marginLeft="25dp"
         android:background="@color/list_line"/>
 
-    <com.showu.baogu.util.view.ListViewPro
+    <com.qinnuan.engine.util.view.ListViewPro
         android:layout_below="@id/titleBar"
         android:id="@+id/fragment_dynamic_listv"
         style="@style/list_view_style3"
@@ -68,7 +68,7 @@
                 android:textColor="@color/white"/>
         </RelativeLayout>
 
-        <com.showu.common.widget.FaceGridView
+        <com.qinnuan.common.widget.FaceGridView
             android:id="@+id/fgv_face"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

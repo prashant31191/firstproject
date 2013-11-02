@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/app_blue_bg">
 
-    <com.showu.common.widget.TitleWidget
+    <com.qinnuan.common.widget.TitleWidget
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@id/titleBar"
@@ -45,7 +45,7 @@
 
     </RelativeLayout>
 
-    <com.showu.baogu.util.view.MyXListView
+    <com.qinnuan.engine.util.view.MyXListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         style="@style/list_view_style"

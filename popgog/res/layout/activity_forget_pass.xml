@@ -6,7 +6,7 @@
     android:background="@color/grey_shallow"
     android:orientation="vertical" >
 
- <com.showu.common.widget.TitleWidget
+ <com.qinnuan.common.widget.TitleWidget
             android:id="@id/titleBar"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

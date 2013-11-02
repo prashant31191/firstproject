@@ -5,7 +5,7 @@
                 android:layout_height="fill_parent"
                 android:orientation="vertical">
 
-    <com.showu.common.widget.TitleWidget
+    <com.qinnuan.common.widget.TitleWidget
             android:id="@id/titleBar"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
             android:layout_above="@id/submit_layout"
             android:layout_below="@+id/timeLayout">
 
-        <com.showu.common.widget.SeatWidget
+        <com.qinnuan.common.widget.SeatWidget
                 android:id="@+id/seatLayout"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"

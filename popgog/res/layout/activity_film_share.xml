@@ -6,11 +6,11 @@
     android:layout_height="fill_parent"
     android:background="@color/grey_shallow" >
 
-    <com.showu.common.widget.TitleWidget
+    <com.qinnuan.common.widget.TitleWidget
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             showu:right_view_text="分享"
-            android:id="@id/titleBar"></com.showu.common.widget.TitleWidget>
+            android:id="@id/titleBar"></com.qinnuan.common.widget.TitleWidget>
 
     <EditText
         android:id="@+id/activity_film_share_content"

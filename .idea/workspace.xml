@@ -172,77 +172,67 @@
   <component name="FavoritesManager">
     <favorites_list name="popgog">
       <favorite_root url="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/fragment/user/RechargeFailFragment.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-      <favorite_root url="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/fragment/filmFan/DynamicFragment.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-      <favorite_root url="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/adapter/DynamicAdapter.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-      <favorite_root url="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/activity/user/DynamicActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/popgog/java/com/qinnuan/baogu/fragment/filmFan/DynamicFragment.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/popgog/java/com/qinnuan/baogu/adapter/DynamicAdapter.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/popgog/java/com/qinnuan/baogu/activity/user/DynamicActivity.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/popgog/res/layout/fragment_dynamic.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/popgog/res/layout/item_dynamic.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-      <favorite_root url="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/adapter/FanAdapter.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/popgog/java/com/qinnuan/baogu/adapter/FanAdapter.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bottom_tabs_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popgog/res/layout/bottom_tabs_item.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="864">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loading_dialog.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popgog/res/layout/loading_dialog.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="558">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popgog/res/layout/message_item.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2178">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message_item_trend.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popgog/res/layout/message_item_trend.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="49" selection-start="122" selection-end="122" vertical-scroll-proportion="-0.64285713" vertical-offset="0" max-vertical-offset="1602">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AbstractParam.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/api/AbstractParam.java">
+        <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/AbstractParam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+            <state line="19" column="49" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="810">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractResponse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/AbstractResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponsDataType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/image/util/ResponsDataType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="7" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddReportUser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/AddReportUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="35" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponsType.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/ResponsType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="18" selection-start="455" selection-end="455" vertical-scroll-proportion="0.3202847" vertical-offset="0" max-vertical-offset="562">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BaseActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/activity/BaseActivity.java">
+        <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/activity/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="24" selection-start="6072" selection-end="6072" vertical-scroll-proportion="0.0" vertical-offset="2772" max-vertical-offset="7056">
+            <state line="324" column="16" selection-start="11429" selection-end="11429" vertical-scroll-proportion="0.0" vertical-offset="5472" max-vertical-offset="7002">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -251,18 +241,18 @@
         </entry>
       </file>
       <file leaf-file-name="HttpClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/common/http/HttpClient.java">
+        <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/HttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="34" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+            <state line="37" column="20" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpEngine.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/common/http/HttpEngine.java">
+      <file leaf-file-name="HttpEngine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/HttpEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="0.42217484" vertical-offset="90" max-vertical-offset="2592">
+            <state line="22" column="23" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2592">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -271,18 +261,18 @@
         </entry>
       </file>
       <file leaf-file-name="IResponse.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/common/http/IResponse.java">
+        <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/IResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+            <state line="3" column="17" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BindingPhoneVerify.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/api/BindingPhoneVerify.java">
+        <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/BindingPhoneVerify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
+            <state line="5" column="35" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1206">
               <folding />
             </state>
           </provider>
@@ -303,12 +293,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/popgog/res/layout/item_dynamic_fan_header.xml" />
-        <option value="$PROJECT_DIR$/popgog/res/layout/item_dynamic_header.xml" />
-        <option value="$PROJECT_DIR$/popgog/java/com/showu/baogu/fragment/filmFan/DynamicFanFragment.java" />
-        <option value="$PROJECT_DIR$/popgog/java/com/showu/baogu/adapter/DynamicFanAdapter.java" />
-        <option value="$PROJECT_DIR$/popgog/res/layout/item_dynamic_fan.xml" />
-        <option value="$PROJECT_DIR$/popgog/res/layout/fragment_dynamic_fan.xml" />
         <option value="$PROJECT_DIR$/popgog/java/com/showu/baogu/activity/user/DynamicActivity.java" />
         <option value="$PROJECT_DIR$/popgog/java/com/showu/baogu/activity/user/DynamicFanActivity.java" />
         <option value="$PROJECT_DIR$/popgog/res/drawable/round_black_bg.xml" />
@@ -319,6 +303,12 @@
         <option value="$PROJECT_DIR$/popgog/res/layout/message_item_trend.xml" />
         <option value="$PROJECT_DIR$/popgog/java/com/showu/baogu/api/AbstractParam.java" />
         <option value="$PROJECT_DIR$/popgog/java/com/showu/common/http/HttpEngine.java" />
+        <option value="$PROJECT_DIR$/popgog/java/com/showu/baogu/api/AbstractResponse.java" />
+        <option value="$PROJECT_DIR$/popgog/java/com/qinnuan/baogu/api/AddReportUser.java" />
+        <option value="$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/AddReportUser.java" />
+        <option value="$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/AbstractResponse.java" />
+        <option value="$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/image/util/ResponsDataType.java" />
+        <option value="$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/ResponsType.java" />
       </list>
     </option>
   </component>
@@ -427,7 +417,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="showu" />
+              <option name="myItemId" value="qinnuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,11 +443,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="showu" />
+              <option name="myItemId" value="qinnuan" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="baogu" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -475,15 +469,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="showu" />
+              <option name="myItemId" value="qinnuan" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="baogu" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
+              <option name="myItemId" value="http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_popgog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="popgog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qinnuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,11 +551,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qinnuan.common.http" />
       <recent name="com.showu.baogu.adapter" />
       <recent name="com.showu.baogu.api.filmFan" />
       <recent name="com.showu.baogu.activity.filmFan" />
       <recent name="com.showu.baogu.bean" />
-      <recent name="com.showu.baogu.xmpp.provider" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\showu_android\android_popgog\popgog\res\drawable-hdpi" />
@@ -836,19 +864,20 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.55889887" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18886043" sideWeight="0.640625" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60602677" sideWeight="0.31946224" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32394367" sideWeight="0.3091518" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33482715" sideWeight="0.30691963" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1573604" sideWeight="0.606274" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1573604" sideWeight="0.606274" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.65178573" sideWeight="0.68053776" order="11" side_tool="false" content_ui="tabs" x="90" y="142" width="1562" height="765" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496799" sideWeight="0.14620535" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297055" sideWeight="0.23995535" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26895452" sideWeight="0.84263957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26895452" sideWeight="0.6717428" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40401787" sideWeight="0.6754161" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="97" y="414" width="893" height="598" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -856,7 +885,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2793296" sideWeight="0.83467096" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -922,73 +950,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/popgog/res/drawable-xhdpi/crop_bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/res/layout/activity_crop.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/share/TencentListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="12" selection-start="2328" selection-end="2328" vertical-scroll-proportion="0.8082707" vertical-offset="0" max-vertical-offset="0">
+        <state line="8" column="26" selection-start="251" selection-end="251" vertical-scroll-proportion="0.18329939" vertical-offset="54" max-vertical-offset="2052">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/common/util/image/crop/CropActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="486" column="31" selection-start="12096" selection-end="12096" vertical-scroll-proportion="0.38863108" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/common/util/image/crop/CropImageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="39" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.36194897" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/common/widget/LoadingDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="53" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.24343258" vertical-offset="401" max-vertical-offset="972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/res/layout/bottom_tabs_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/res/layout/loading_dialog.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="558">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/res/layout/message_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/common/share/TencentListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="251" selection-end="251" vertical-scroll-proportion="0.18329939" vertical-offset="54" max-vertical-offset="2052" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/popgog/res/layout/message_item_trend.xml">
@@ -1001,49 +967,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/api/BindingPhoneVerify.java">
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/BindingPhoneVerify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
+        <state line="5" column="35" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1206">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/api/AbstractParam.java">
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/IResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+        <state line="3" column="17" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/common/http/IResponse.java">
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/HttpEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/baogu/activity/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="24" selection-start="6072" selection-end="6072" vertical-scroll-proportion="0.0" vertical-offset="2772" max-vertical-offset="7056">
+        <state line="22" column="23" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2592">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/common/http/HttpClient.java">
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/activity/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+        <state line="324" column="16" selection-start="11429" selection-end="11429" vertical-scroll-proportion="0.0" vertical-offset="5472" max-vertical-offset="7002">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="482" column="25" selection-start="19490" selection-end="19490" vertical-scroll-proportion="0.33333334" vertical-offset="8092" max-vertical-offset="11988">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/popgog/java/com/showu/common/http/HttpEngine.java">
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/HttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="0.42217484" vertical-offset="90" max-vertical-offset="2592">
+        <state line="37" column="20" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/AbstractParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="49" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/BindingPhoneCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="246" selection-end="246" vertical-scroll-proportion="0.30703625" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/RequestType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="361" selection-end="361" vertical-scroll-proportion="0.34541577" vertical-offset="0" max-vertical-offset="469">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/AddReportUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/HttpMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="46" selection-end="46" vertical-scroll-proportion="0.06405694" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/engine/api/AbstractResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/image/util/ResponsDataType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popgog/java/com/qinnuan/common/http/ResponsType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="455" selection-end="455" vertical-scroll-proportion="0.3202847" vertical-offset="0" max-vertical-offset="562">
+          <folding />
         </state>
       </provider>
     </entry>

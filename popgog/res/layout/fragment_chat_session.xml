@@ -6,10 +6,10 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <com.showu.common.widget.TitleWidget
+    <com.qinnuan.common.widget.TitleWidget
             android:layout_height="wrap_content"
             showu:left_visibility="invisible"
             showu:center_view_text="@string/message"
-            android:layout_width="wrap_content"></com.showu.common.widget.TitleWidget>
+            android:layout_width="wrap_content"></com.qinnuan.common.widget.TitleWidget>
 
 </LinearLayout>

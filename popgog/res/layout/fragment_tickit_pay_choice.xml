@@ -7,7 +7,7 @@
         android:background="@color/cinema_bg"
         tools:context=".UserActivity">
 
-    <com.showu.common.widget.TitleWidget
+    <com.qinnuan.common.widget.TitleWidget
             android:id="@id/titleBar"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

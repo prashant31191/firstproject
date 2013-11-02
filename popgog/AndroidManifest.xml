@@ -9,84 +9,84 @@
         android:targetSdkVersion="16"/>
 
     <application
-        android:name=".application.BaoguApplication"
+        android:name="com.qinnuan.engine.application.BaoguApplication"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.qinnuan.engine.activity.MainActivity"
             android:windowSoftInputMode="adjustPan"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:label="@string/app_name"/>
         <activity
-                android:name=".activity.film.CityActivity"
+                android:name="com.qinnuan.engine.activity.film.CityActivity"
                 android:configChanges="keyboardHidden|orientation"
                 android:screenOrientation="portrait"/>
         <activity
-                android:name=".activity.FilmShareActivity"
+                android:name="com.qinnuan.engine.activity.FilmShareActivity"
                 android:configChanges="keyboardHidden|orientation"
                 android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.message.ChatActivity"
+            android:name="com.qinnuan.engine.activity.message.ChatActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustUnspecified|adjustResize"/>
         <activity
-            android:name=".activity.message.MessageActivity"
+            android:name="com.qinnuan.engine.activity.message.MessageActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.filmFan.FriendActivity"
+            android:name="com.qinnuan.engine.activity.filmFan.FriendActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.user.UserActivity"
+            android:name="com.qinnuan.engine.activity.user.UserActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.message.ShowMapActivity"
+            android:name="com.qinnuan.engine.activity.message.ShowMapActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.ImageDetailActivity"
+            android:name="com.qinnuan.engine.activity.ImageDetailActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.message.HelloActivity"
+            android:name="com.qinnuan.engine.activity.message.HelloActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.ImageGridActivity"
+            android:name="com.qinnuan.engine.activity.ImageGridActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.user.SettingActivity"
+            android:name="com.qinnuan.engine.activity.user.SettingActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.film.FilmIndexActivity"
+            android:name="com.qinnuan.engine.activity.film.FilmIndexActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.film.EtickitActivity"
+            android:name="com.qinnuan.engine.activity.film.EtickitActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.film.GroupActivity"
+            android:name="com.qinnuan.engine.activity.film.GroupActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.film.ActivityActivity"
+            android:name="com.qinnuan.engine.activity.film.ActivityActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.WapActivity"
+            android:name="com.qinnuan.engine.activity.WapActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.film.OnLineSeatActivity"
+            android:name="com.qinnuan.engine.activity.film.OnLineSeatActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustUnspecified|adjustResize"/>
@@ -104,7 +104,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.StartActivity"
+            android:name="com.qinnuan.engine.activity.StartActivity"
             android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"
             android:screenOrientation="portrait"
@@ -115,121 +115,121 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.showu.common.util.image.crop.CropActivity"
+            android:name="com.qinnuan.common.util.image.crop.CropActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".activity.user.RegistPhoneActivity"
+            android:name="com.qinnuan.engine.activity.user.RegistPhoneActivity"
             android:windowSoftInputMode="adjustPan"
             android:label="@string/app_name">
         </activity>
         <activity
-            android:name=".activity.user.UserInfoActivity"
+            android:name="com.qinnuan.engine.activity.user.UserInfoActivity"
             android:windowSoftInputMode="adjustPan"
             android:label="@string/app_name">
         </activity>
         <activity
-            android:name=".activity.user.OtherRegistActivity"
+            android:name="com.qinnuan.engine.activity.user.OtherRegistActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".activity.user.ForgetPswActivity"
+            android:name="com.qinnuan.engine.activity.user.ForgetPswActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".activity.filmFan.FanActivity"
+            android:name="com.qinnuan.engine.activity.filmFan.FanActivity"
             android:hardwareAccelerated="false"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.filmFan.FanInfoActivity"
+            android:name="com.qinnuan.engine.activity.filmFan.FanInfoActivity"
             android:hardwareAccelerated="false"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.filmFan.MyFriendActivity"
+            android:name="com.qinnuan.engine.activity.filmFan.MyFriendActivity"
             android:hardwareAccelerated="false"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.filmFan.FriendAddHomeActivity"
+            android:name="com.qinnuan.engine.activity.filmFan.FriendAddHomeActivity"
             android:hardwareAccelerated="false"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.filmFan.FriendAddActivity"
+            android:name="com.qinnuan.engine.activity.filmFan.FriendAddActivity"
             android:hardwareAccelerated="false"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.filmFan.FriendBlackActivity"
+            android:name="com.qinnuan.engine.activity.filmFan.FriendBlackActivity"
             android:hardwareAccelerated="false"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".activity.user.DynamicActivity"
+            android:name="com.qinnuan.engine.activity.user.DynamicActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.user.DynamicPulishActivity"
+            android:name="com.qinnuan.engine.activity.user.DynamicPulishActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".activity.user.DynamicFanActivity"
+            android:name="com.qinnuan.engine.activity.user.DynamicFanActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
 
 
         <activity
-            android:name=".activity.user.DynamicDetailActivity"
+            android:name="com.qinnuan.engine.activity.user.DynamicDetailActivity"
             android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="stateHidden|adjustUnspecified|adjustResize"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.filmFan.PublicInfoActivity"
+            android:name="com.qinnuan.engine.activity.filmFan.PublicInfoActivity"
             android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".activity.CouponActivity"
+            android:name="com.qinnuan.engine.activity.CouponActivity"
             android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".activity.user.OnlineOrderDetailActivity"
+            android:name="com.qinnuan.engine.activity.user.OnlineOrderDetailActivity"
             android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".activity.user.BindPhoneActivity"
+            android:name="com.qinnuan.engine.activity.user.BindPhoneActivity"
             android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.user.EticketOrderDetailActivity"
+            android:name="com.qinnuan.engine.activity.user.EticketOrderDetailActivity"
             android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.filmFan.UnReadMsgActivity"
+            android:name="com.qinnuan.engine.activity.filmFan.UnReadMsgActivity"
             android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.user.BindSinaShareActivity"
+            android:name="com.qinnuan.engine.activity.user.BindSinaShareActivity"
             android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.filmFan.ContactActivity"
+            android:name="com.qinnuan.engine.activity.filmFan.ContactActivity"
             android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"
             android:screenOrientation="portrait"/>
@@ -283,34 +283,34 @@
         </activity>
 
         <activity
-            android:name=".activity.film.BuyTicketTogetherActivity"
+            android:name="com.qinnuan.engine.activity.film.BuyTicketTogetherActivity"
             android:hardwareAccelerated="false"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".activity.user.UserOrderActivity"
+            android:name="com.qinnuan.engine.activity.user.UserOrderActivity"
             android:hardwareAccelerated="false"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".activity.user.UserAccountActivity"
+            android:name="com.qinnuan.engine.activity.user.UserAccountActivity"
             android:hardwareAccelerated="false"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"/>
 
-        <service android:name=".xmpp.XmppService"></service>
+        <service android:name="com.qinnuan.engine.xmpp.XmppService"></service>
 
 
         <provider
-            android:name=".xmpp.provider.MessageProvide"
+            android:name="com.qinnuan.engine.xmpp.provider.MessageProvide"
             android:authorities="com.baogu.showu.provider"/>
         <provider
-            android:name=".xmpp.provider.SessionProvide"
+            android:name="com.qinnuan.engine.xmpp.provider.SessionProvide"
             android:authorities="com.baogu.showu.session.provider" />
         <provider
-            android:name=".xmpp.provider.FanBlacklistProvide"
+            android:name="com.qinnuan.engine.xmpp.provider.FanBlacklistProvide"
             android:authorities="com.baogu.showu.fanblacklist.provider" />
 
         <meta-data

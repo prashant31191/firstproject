@@ -5,7 +5,7 @@
                 android:layout_height="fill_parent"
         >
 
-    <com.showu.common.widget.TouchView
+    <com.qinnuan.common.widget.TouchView
             android:id="@+id/seatview"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

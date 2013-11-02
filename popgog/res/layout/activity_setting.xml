@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.showu.common.widget.TitleWidget
+    <com.qinnuan.common.widget.TitleWidget
         android:id="@id/titleBar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
                         android:layout_centerVertical="true"
                         android:gravity="center" >
 
-                        <com.showu.common.widget.MySlipSwitchWidget
+                        <com.qinnuan.common.widget.MySlipSwitchWidget
                             android:id="@+id/cb_sound"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" />
@@ -83,7 +83,7 @@
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true" >
 
-                        <com.showu.common.widget.MySlipSwitchWidget
+                        <com.qinnuan.common.widget.MySlipSwitchWidget
                             android:id="@+id/cb_shake"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -208,7 +208,7 @@
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true" >
 
-                        <com.showu.common.widget.MySlipSwitchWidget
+                        <com.qinnuan.common.widget.MySlipSwitchWidget
                             android:id="@+id/cb_autoupdate"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

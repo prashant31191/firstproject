@@ -11,7 +11,7 @@
         android:layout_height="fill_parent"
         android:orientation="vertical">
 
-        <com.showu.common.widget.TitleWidget
+        <com.qinnuan.common.widget.TitleWidget
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             showu:center_view_text="黑名单"

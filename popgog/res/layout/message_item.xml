@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="3.5">
 
-            <com.showu.common.widget.PressImageView
+            <com.qinnuan.common.widget.PressImageView
                     android:id="@+id/head_fram"
                     android:layout_width="56dp"
                     android:layout_height="56dp"

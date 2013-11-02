@@ -6,13 +6,13 @@
     android:background="@color/app_blue_bg"
     android:orientation="vertical">
 
-    <com.showu.common.widget.TitleWidget
+    <com.qinnuan.common.widget.TitleWidget
         android:id="@id/titleBar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         showu:center_view_text="通讯录好友"/>
 
-    <com.showu.baogu.util.view.MyXListView
+    <com.qinnuan.engine.util.view.MyXListView
         android:id="@+id/activity_contact_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

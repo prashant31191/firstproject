@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:gravity="center_vertical" >
 
-    <com.showu.common.widget.MySlipSwitch
+    <com.qinnuan.common.widget.MySlipSwitch
         android:id="@+id/item_myslipswitch"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

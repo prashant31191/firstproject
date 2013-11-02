@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/dynamic_seat_bg">
 
-            <com.showu.common.widget.CircleImageView
+            <com.qinnuan.common.widget.CircleImageView
                 android:id="@+id/item_dynamic_seat_head"
                 android:layout_width="60px"
                 android:layout_height="60px"

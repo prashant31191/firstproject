@@ -5,7 +5,7 @@
         android:layout_height="match_parent"
         >
 
-    <com.showu.common.widget.TitleWidget
+    <com.qinnuan.common.widget.TitleWidget
             android:id="@id/titleBar"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"/>
@@ -180,7 +180,7 @@
         </LinearLayout>
 
 
-        <com.showu.common.widget.FaceGridView
+        <com.qinnuan.common.widget.FaceGridView
                 android:id="@+id/fgv_face"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
