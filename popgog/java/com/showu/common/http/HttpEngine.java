@@ -14,7 +14,6 @@ public class HttpEngine extends AsyncTask<Object, Object, HttpStringResult> {
     private static final String CONTENT_TYPE = "multipart/form-data"; // 内容类型
     private static final String BOUNDARY =  UUID.randomUUID().toString(); // 边界标识 随机生成
     public HttpEngine(IResponse res) {
-        // TODO Auto-generated constructor stub
         this.response = res;
     }
 

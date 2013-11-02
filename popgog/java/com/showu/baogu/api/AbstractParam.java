@@ -5,7 +5,7 @@ import com.showu.common.util.GUIUtil;
 
 import java.lang.reflect.Field;
 
-public abstract class AbstractParam {
+public abstract class AbstractParam<T> {
     public abstract String getApi();
 
     public String getString() {
