@@ -20,7 +20,7 @@ import com.qinnuan.common.util.FileUtil;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.widget.SeatWidget;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.common.util.ImageUtil;
 
 import java.io.File;

@@ -29,7 +29,7 @@ import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.JSONTool;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.activity.user.DynamicFanActivity;
 import com.qinnuan.engine.api.AddReportUser;

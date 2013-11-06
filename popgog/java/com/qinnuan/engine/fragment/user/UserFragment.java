@@ -1,6 +1,6 @@
 package com.qinnuan.engine.fragment.user;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 

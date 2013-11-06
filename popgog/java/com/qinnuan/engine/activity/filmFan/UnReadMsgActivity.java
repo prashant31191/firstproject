@@ -15,7 +15,7 @@ import com.qinnuan.engine.adapter.BaoguBaseAdapter;
 import com.qinnuan.engine.util.view.MyXListView;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.JSONTool;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.api.filmFan.GetUserUnreadMessage;
 import com.qinnuan.engine.application.Const;

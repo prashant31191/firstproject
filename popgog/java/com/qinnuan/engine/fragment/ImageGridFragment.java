@@ -30,7 +30,7 @@ import android.widget.GridView;
 import android.widget.ImageView;
 
 import com.qinnuan.common.http.image.util.ImageCache;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.ImageDetailActivity;
 import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.util.ImageUtil;

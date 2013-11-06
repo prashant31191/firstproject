@@ -7,7 +7,7 @@ import android.widget.ListView;
 import com.qinnuan.engine.adapter.CinemaAdapter;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.film.OnLineSeatActivity;
 import com.qinnuan.engine.fragment.InjectView;
 

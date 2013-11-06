@@ -21,7 +21,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Scroller;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 public class XListView extends ListView implements OnScrollListener {
 

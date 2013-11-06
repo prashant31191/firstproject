@@ -9,7 +9,7 @@ import com.qinnuan.engine.activity.filmFan.FanInfoActivity;
 import com.qinnuan.engine.adapter.HelloMessageAdapter;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.bean.MessageListBean;
 import com.qinnuan.engine.fragment.InjectView;
 

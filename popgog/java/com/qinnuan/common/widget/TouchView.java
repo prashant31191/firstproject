@@ -19,7 +19,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.qinnuan.engine.activity.filmFan.FanInfoActivity;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.bean.film.Seat;
 import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.util.LogUtil;

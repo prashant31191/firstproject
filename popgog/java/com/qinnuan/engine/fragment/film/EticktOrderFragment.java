@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.common.util.GUIUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.fragment.InjectView;
 
 @FragmentView(id = R.layout.fragment_etickt_order)

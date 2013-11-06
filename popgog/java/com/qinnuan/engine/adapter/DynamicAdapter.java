@@ -15,10 +15,12 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.qinnuan.engine.bean.Like;
+import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.util.DateUtil;
+import com.qinnuan.common.util.GUIUtil;
+import com.qinnuan.common.util.ImageUtil;
+import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
 import com.qinnuan.engine.activity.ImageDetailActivity;
 import com.qinnuan.engine.activity.film.OnLineSeatActivity;
 import com.qinnuan.engine.activity.user.DynamicFanActivity;
@@ -26,11 +28,9 @@ import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.application.MyPref;
 import com.qinnuan.engine.bean.Comment;
 import com.qinnuan.engine.bean.Dynamic;
+import com.qinnuan.engine.bean.Like;
 import com.qinnuan.engine.listener.IOnItemClickListener;
-import com.qinnuan.common.http.image.util.ImageFetcher;
-import com.qinnuan.common.util.GUIUtil;
-import com.qinnuan.common.util.ImageUtil;
-import com.qinnuan.common.util.LogUtil;
+import com.qinnuan.engine.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -8,13 +8,13 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.qinnuan.engine.activity.filmFan.FanInfoActivity;
-import com.qinnuan.engine.xmpp.json.UserInfo;
+import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.util.DateUtil;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
+import com.qinnuan.engine.activity.filmFan.FanInfoActivity;
+import com.qinnuan.engine.xmpp.json.UserInfo;
 import com.qinnuan.engine.xmpp.message.BaseMessage;
-import com.qinnuan.common.http.image.util.ImageFetcher;
 
 import java.util.Date;
 import java.util.List;

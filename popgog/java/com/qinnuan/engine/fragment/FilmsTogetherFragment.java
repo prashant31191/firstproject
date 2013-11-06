@@ -7,7 +7,7 @@ import android.widget.ImageView;
 
 import com.qinnuan.engine.listener.ILoadImgListener;
 import com.qinnuan.engine.util.view.MyListView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.adapter.FilmsTogetherAdapter;
 import com.qinnuan.engine.bean.film.FilmBean;
 import com.qinnuan.engine.listener.OnScrollItemChange;

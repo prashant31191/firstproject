@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import com.qinnuan.common.http.image.util.ImageCache;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.application.BaoguApplication;
 import com.qinnuan.engine.xmpp.MessageSendListener;
 import com.qinnuan.engine.xmpp.ServiceManager;

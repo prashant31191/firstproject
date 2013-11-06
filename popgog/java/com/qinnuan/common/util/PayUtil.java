@@ -16,7 +16,7 @@ import com.alipay.android.appDemo4.MobileSecurePayer;
 import com.alipay.android.appDemo4.PartnerConfig;
 import com.alipay.android.appDemo4.ResultChecker;
 import com.alipay.android.appDemo4.Rsa;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 public class PayUtil {
 	private String TAG = getClass().getSimpleName();

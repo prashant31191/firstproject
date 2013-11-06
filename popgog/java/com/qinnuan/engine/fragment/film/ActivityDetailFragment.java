@@ -16,7 +16,7 @@ import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.widget.JoinPopContentView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.film.ActivityActivity;
 import com.qinnuan.engine.bean.film.AcitivityBean;
 import com.qinnuan.engine.fragment.InjectView;

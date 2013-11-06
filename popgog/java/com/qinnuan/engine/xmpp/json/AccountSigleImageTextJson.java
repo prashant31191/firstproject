@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.qinnuan.engine.activity.WapActivity;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.bean.MessageListBean;
 import com.qinnuan.engine.xmpp.message.BaseMessage;
 import com.qinnuan.common.http.image.util.ImageFetcher;

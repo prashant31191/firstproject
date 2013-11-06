@@ -12,7 +12,7 @@ import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.engine.listener.IUserInfoListener;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.ImageDetailActivity;
 import com.qinnuan.engine.activity.user.UserInfoActivity;
 import com.qinnuan.engine.bean.User;

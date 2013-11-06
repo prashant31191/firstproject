@@ -2,7 +2,7 @@ package com.qinnuan.engine.fragment.film;
 
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 /**
  * Created by JingHuiLiu on 13-7-10.

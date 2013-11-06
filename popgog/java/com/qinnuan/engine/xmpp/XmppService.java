@@ -37,7 +37,7 @@ import android.telephony.TelephonyManager;
 import android.util.Log;
 
 import com.qinnuan.common.util.GUIUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.MainActivity;
 import com.qinnuan.engine.application.BaoguApplication;
 import com.qinnuan.engine.application.MyPref;

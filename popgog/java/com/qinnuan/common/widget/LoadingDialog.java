@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 public class LoadingDialog extends Dialog {
 private Context mContext ;

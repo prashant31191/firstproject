@@ -5,7 +5,7 @@ import android.widget.TextView;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.engine.fragment.InjectView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 @FragmentView(id = R.layout.fragment_phone_bind_success)
 public class PhoneBindSuccessFragment extends BaseFragment {

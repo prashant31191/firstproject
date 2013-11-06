@@ -7,7 +7,7 @@ import android.os.Message;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.activity.message.ChatActivity;
 import com.qinnuan.engine.activity.user.DynamicFanActivity;

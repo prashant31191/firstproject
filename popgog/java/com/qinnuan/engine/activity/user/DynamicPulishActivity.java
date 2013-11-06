@@ -22,7 +22,7 @@ import com.qinnuan.common.util.TextUtil;
 import com.qinnuan.common.util.image.crop.CropImageUtil;
 import com.qinnuan.common.widget.FaceGridView;
 import com.qinnuan.common.widget.TitleWidget;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 
 import com.qinnuan.engine.application.Const;

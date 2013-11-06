@@ -5,7 +5,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 import com.qinnuan.engine.activity.BaseActivity;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 public class BuyTicketStartActivity extends BaseActivity {
 

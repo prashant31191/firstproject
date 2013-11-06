@@ -9,8 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.qinnuan.engine.bean.film.CityBean;
-import com.showu.baogu.R;
 import com.qinnuan.engine.bean.film.ProvinceBean;
+import com.qinnuan.engine.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,5 @@
 package com.qinnuan.engine.adapter;
 
-import java.util.List;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +7,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.qinnuan.engine.bean.Cash;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
+
+import java.util.List;
 
 public class UserCashAdapter extends BaoguBaseAdapter<Cash> {
 

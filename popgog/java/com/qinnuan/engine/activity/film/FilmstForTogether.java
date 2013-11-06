@@ -13,7 +13,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
 import com.qinnuan.common.util.JSONTool;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.bean.film.FilmBean;
 

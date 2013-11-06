@@ -22,7 +22,7 @@ import com.qinnuan.common.share.TencentShare;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.JSONTool;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.api.LoginUserSns;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.bean.User;

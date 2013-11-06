@@ -32,7 +32,7 @@ import android.widget.ImageView;
 
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.BuildConfig;
+import com.qinnuan.engine.BuildConfig;
 import com.qinnuan.common.util.ImageUtil;
 
 import java.lang.ref.WeakReference;

@@ -16,8 +16,8 @@ import android.graphics.drawable.Drawable;
 import android.os.Environment;
 import android.util.Log;
 
-import com.showu.baogu.BuildConfig;
-import com.showu.baogu.R;
+import com.qinnuan.engine.BuildConfig;
+import com.qinnuan.engine.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

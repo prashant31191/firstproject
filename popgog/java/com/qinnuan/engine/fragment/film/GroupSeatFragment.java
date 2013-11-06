@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.qinnuan.engine.fragment.FragmentView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.film.GroupActivity;
 import com.qinnuan.engine.bean.film.GroupShowInfoBean;
 import com.qinnuan.engine.bean.film.Seat;

@@ -16,7 +16,7 @@ import com.qinnuan.engine.listener.IForgetPswVerifycodeListener;
 import com.qinnuan.engine.xmpp.ServiceManager;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.application.Const;
 
 import org.json.JSONException;

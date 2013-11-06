@@ -9,7 +9,7 @@ import com.qinnuan.engine.activity.user.OnlineOrderDetailActivity;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.bean.user.OnlineOrder;
 import com.qinnuan.engine.fragment.InjectView;
 import com.qinnuan.common.http.image.util.ImageFetcher;

@@ -11,7 +11,7 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.xmpp.message.BaseMessage;
 import com.qinnuan.engine.xmpp.message.MessageSRC;
 

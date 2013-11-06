@@ -21,7 +21,7 @@ import com.qinnuan.common.util.JSONTool;
 import com.qinnuan.common.util.Location;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.bean.Point;
 import com.qinnuan.engine.bean.UrlBean;

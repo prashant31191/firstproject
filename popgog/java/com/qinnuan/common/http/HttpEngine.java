@@ -1,6 +1,7 @@
 package com.qinnuan.common.http;
 
 import com.qinnuan.common.util.LogUtil;
+import com.qinnuan.engine.api.AbstractParam;
 
 import java.io.*;
 import java.net.HttpURLConnection;

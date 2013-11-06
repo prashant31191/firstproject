@@ -15,7 +15,7 @@ import com.qinnuan.engine.bean.Fan;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.filmFan.MyFriendActivity;
 import com.qinnuan.engine.activity.message.ChatActivity;
 import com.qinnuan.engine.bean.Dynamic;

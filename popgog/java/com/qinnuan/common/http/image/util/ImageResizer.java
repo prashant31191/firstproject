@@ -23,7 +23,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.util.Log;
-import com.showu.baogu.BuildConfig;
+import com.qinnuan.engine.BuildConfig;
 
 import java.io.FileDescriptor;
 

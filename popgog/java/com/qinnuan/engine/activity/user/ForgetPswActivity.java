@@ -8,7 +8,7 @@ import com.qinnuan.engine.fragment.user.ForgetVerifyCodeFragment;
 import com.qinnuan.engine.fragment.user.ForgetVerifyPhoneFragment;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.api.ForgetPasswordVerify;
 import com.qinnuan.engine.api.UpdateUserForgetPassword;

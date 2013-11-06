@@ -7,7 +7,7 @@ import android.widget.EditText;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.film.GroupActivity;
 import com.qinnuan.engine.activity.user.UserInfoActivity;
 import com.qinnuan.engine.application.Const;

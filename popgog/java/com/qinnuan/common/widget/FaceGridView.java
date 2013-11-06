@@ -19,7 +19,7 @@ import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.adapter.EmojiViewFaceAdapter;
 import com.qinnuan.engine.adapter.GridViewFaceAdapter;
 import com.qinnuan.common.util.EmojiParser;

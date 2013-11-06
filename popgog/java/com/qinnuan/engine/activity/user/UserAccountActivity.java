@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.api.film.UpdateOrderconfirm;
 import com.qinnuan.engine.api.user.AddUserCashremain;
 import com.qinnuan.engine.bean.Cash;
@@ -17,7 +18,6 @@ import com.qinnuan.engine.pay.UpompPay;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.JSONTool;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.api.user.GetUserCashlog;
 import com.qinnuan.engine.application.Const;

@@ -7,5 +7,6 @@ import org.json.JSONObject;
  * Created by user on 13-11-2.
  */
 public abstract class AbstractResponse<T>{
-
+   public void parseJsont(JSONObject jsonObject){
+   }
 }

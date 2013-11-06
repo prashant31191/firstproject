@@ -9,18 +9,18 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.qinnuan.engine.activity.film.GroupActivity;
-import com.qinnuan.engine.activity.filmFan.MyFriendActivity;
-import com.qinnuan.engine.bean.MessageListBean;
-import com.qinnuan.engine.xmpp.message.SessionType;
-import com.qinnuan.engine.xmpp.provider.SessionManager;
+import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.util.DateUtil;
 import com.qinnuan.common.util.TextUtil;
 import com.qinnuan.common.widget.PressImageView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.activity.film.GroupActivity;
+import com.qinnuan.engine.activity.filmFan.MyFriendActivity;
 import com.qinnuan.engine.activity.filmFan.PublicInfoActivity;
 import com.qinnuan.engine.application.Const;
-import com.qinnuan.common.http.image.util.ImageFetcher;
+import com.qinnuan.engine.bean.MessageListBean;
+import com.qinnuan.engine.xmpp.message.SessionType;
+import com.qinnuan.engine.xmpp.provider.SessionManager;
+import com.qinnuan.engine.R;
 
 import java.text.DateFormat;
 import java.util.ArrayList;

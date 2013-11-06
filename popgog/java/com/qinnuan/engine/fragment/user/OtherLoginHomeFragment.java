@@ -11,12 +11,12 @@ import android.widget.RadioGroup;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
 import com.qinnuan.engine.fragment.InjectView;
 import com.qinnuan.engine.listener.IOtherLoginListener;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.widget.BottomPopWindow;
+import com.qinnuan.engine.R;
 
 /**
  * Created by JingHuiLiu on 13-7-10.

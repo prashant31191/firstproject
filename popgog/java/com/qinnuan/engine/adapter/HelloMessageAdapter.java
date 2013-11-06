@@ -8,18 +8,18 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.qinnuan.engine.xmpp.json.LocationJson;
+import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
 import com.qinnuan.engine.activity.message.HelloActivity;
 import com.qinnuan.engine.bean.MessageListBean;
 import com.qinnuan.engine.xmpp.json.ImageMessageJson;
+import com.qinnuan.engine.xmpp.json.LocationJson;
 import com.qinnuan.engine.xmpp.json.MessageJson;
 import com.qinnuan.engine.xmpp.json.TextMessageJson;
 import com.qinnuan.engine.xmpp.json.VoiceJson;
 import com.qinnuan.engine.xmpp.message.BaseMessage;
 import com.qinnuan.engine.xmpp.provider.ChatDBManager;
-import com.qinnuan.common.http.image.util.ImageFetcher;
+import com.qinnuan.engine.R;
 
 import java.util.List;
 

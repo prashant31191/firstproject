@@ -29,7 +29,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.util.LruCache;
 import android.util.Log;
-import com.showu.baogu.BuildConfig;
+import com.qinnuan.engine.BuildConfig;
 
 import java.io.*;
 import java.lang.ref.SoftReference;

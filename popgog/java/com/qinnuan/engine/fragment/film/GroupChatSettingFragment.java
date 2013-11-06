@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.qinnuan.engine.activity.film.GroupActivity;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.bean.film.GroupBean;
 import com.qinnuan.engine.fragment.InjectView;
 

@@ -16,7 +16,7 @@ import com.qinnuan.engine.pay.UpompPay;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.api.film.UpdateCouponStatus;
 import com.qinnuan.engine.application.Const;

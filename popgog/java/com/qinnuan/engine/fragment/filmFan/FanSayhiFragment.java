@@ -7,7 +7,7 @@ import android.widget.EditText;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.engine.listener.IFanSayhiListener;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.fragment.InjectView;
 
 /**

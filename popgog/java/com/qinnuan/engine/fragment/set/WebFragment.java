@@ -6,7 +6,7 @@ import android.webkit.WebView;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.fragment.InjectView;
 
 @FragmentView(id=R.layout.activity_fans_weibo)

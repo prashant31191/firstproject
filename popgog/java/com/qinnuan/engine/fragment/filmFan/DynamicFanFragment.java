@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.qinnuan.engine.listener.ILoadImgListener;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.user.DynamicDetailActivity;
 import com.qinnuan.engine.adapter.DynamicFanAdapter;
 import com.qinnuan.engine.bean.Dynamic;

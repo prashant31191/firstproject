@@ -21,7 +21,7 @@ import com.qinnuan.engine.xmpp.provider.SessionManager;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.widget.TitleWidget;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.application.BaoguApplication;
 import com.qinnuan.engine.application.Const;

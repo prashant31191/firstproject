@@ -20,7 +20,7 @@ import com.qinnuan.engine.api.film.GetCityList;
 import com.qinnuan.engine.bean.film.CityBean;
 import com.qinnuan.common.util.JSONTool;
 import com.qinnuan.common.widget.TitleWidget;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.bean.film.ProvinceBean;
 

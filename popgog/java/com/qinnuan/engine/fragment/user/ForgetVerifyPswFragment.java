@@ -9,7 +9,7 @@ import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.engine.fragment.InjectView;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.listener.IForgetPswNewPswListener;
 
 /**

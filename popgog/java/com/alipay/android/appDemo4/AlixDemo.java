@@ -26,7 +26,7 @@ import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 /**
  * 模拟商户应用的商品列表，交易步骤。

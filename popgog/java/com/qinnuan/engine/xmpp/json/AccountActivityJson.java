@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.film.ActivityActivity;
 import com.qinnuan.engine.bean.MessageListBean;
 import com.qinnuan.engine.xmpp.message.BaseMessage;

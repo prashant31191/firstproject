@@ -9,7 +9,7 @@ import com.qinnuan.engine.bean.Fan;
 import com.qinnuan.engine.fragment.filmFan.FanInfoFragment;
 import com.qinnuan.engine.util.view.MyXListView;
 import com.qinnuan.common.util.GUIUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.api.UpdateIsshow;
 import com.qinnuan.engine.listener.IOnItemClickListener;

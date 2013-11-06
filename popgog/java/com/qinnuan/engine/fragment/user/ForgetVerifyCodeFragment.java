@@ -3,14 +3,13 @@ package com.qinnuan.engine.fragment.user;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-import com.showu.baogu.R;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.engine.fragment.InjectView;
 import com.qinnuan.engine.listener.IForgetPswVerifycodeListener;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.TextUtil;
+import com.qinnuan.engine.R;
 
 /**
  * Created by JingHuiLiu on 13-7-10.

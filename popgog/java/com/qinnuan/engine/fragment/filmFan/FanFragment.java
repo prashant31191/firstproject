@@ -16,7 +16,7 @@ import com.qinnuan.engine.listener.IOnItemClickListener;
 import com.qinnuan.engine.util.view.MyXListView;
 import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 
 @FragmentView(id=R.layout.fragment_fan)

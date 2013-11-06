@@ -14,7 +14,7 @@ import com.qinnuan.engine.xmpp.provider.FanBlacklistManager;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.JSONTool;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.api.user.Giveyouwrite;
 import com.qinnuan.engine.application.Const;

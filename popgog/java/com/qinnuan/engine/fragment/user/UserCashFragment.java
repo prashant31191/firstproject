@@ -9,7 +9,7 @@ import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.engine.listener.IOnItemClickListener;
 import com.qinnuan.engine.util.view.MyXListView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.adapter.UserCashAdapter;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.fragment.InjectView;

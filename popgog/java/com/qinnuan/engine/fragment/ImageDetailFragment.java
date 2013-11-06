@@ -24,7 +24,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.qinnuan.common.http.image.util.ImageWorker;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.ImageDetailActivity;
 import com.qinnuan.common.http.image.util.ImageFetcher;
 

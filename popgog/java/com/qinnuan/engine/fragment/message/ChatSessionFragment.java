@@ -12,7 +12,7 @@ import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.engine.fragment.InjectView;
 import com.qinnuan.engine.xmpp.message.ComparatorMessage;
 import com.qinnuan.common.util.DateUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R ;
 import com.qinnuan.engine.adapter.MessageListAdapter;
 import com.qinnuan.common.http.image.util.ImageFetcher;
 

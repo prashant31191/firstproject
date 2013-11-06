@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 public class PressImageView extends FrameLayout {
 	private ImageView imageView;

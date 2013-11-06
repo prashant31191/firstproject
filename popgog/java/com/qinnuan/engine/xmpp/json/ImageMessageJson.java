@@ -13,7 +13,7 @@ import com.qinnuan.common.josn.EAJson;
 import com.qinnuan.common.util.DateUtil;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.ImageDetailActivity;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.xmpp.message.BaseMessage;

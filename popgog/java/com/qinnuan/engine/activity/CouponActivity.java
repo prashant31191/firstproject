@@ -14,7 +14,7 @@ import com.qinnuan.engine.util.view.MyXListView;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.JSONTool;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.util.view.XListView;
 

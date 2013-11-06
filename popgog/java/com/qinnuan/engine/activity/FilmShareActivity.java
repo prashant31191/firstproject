@@ -15,7 +15,7 @@ import com.qinnuan.common.util.FileUtil;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.widget.TitleWidget;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.common.http.IDownLoadListener;
 import com.qinnuan.common.http.ImageDowanLoad;

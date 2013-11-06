@@ -3,7 +3,7 @@ package com.qinnuan.engine.fragment.user;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.engine.listener.IOnItemClickListener;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 /**
  * Created by JingHuiLiu on 13-7-10.

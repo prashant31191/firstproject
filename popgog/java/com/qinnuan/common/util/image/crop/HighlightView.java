@@ -10,7 +10,7 @@ import android.graphics.Region;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.common.util.LogUtil;
 
 // This class is used by CropImage to display a highlighted cropping rectangle

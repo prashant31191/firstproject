@@ -29,7 +29,7 @@ import android.view.WindowManager;
 
 import com.qinnuan.common.util.FileUtil;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 /**
  * The activity can crop specific region of interest from an image.

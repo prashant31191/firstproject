@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.bean.film.ShowInfoBean;
 import com.qinnuan.common.util.DateUtil;

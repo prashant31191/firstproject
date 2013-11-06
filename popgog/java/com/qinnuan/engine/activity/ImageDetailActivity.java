@@ -29,7 +29,7 @@ import com.qinnuan.engine.fragment.ImageDetailFragment;
 import com.qinnuan.common.http.image.util.ImageCache;
 import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.widget.TitleWidget;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 public class ImageDetailActivity extends BaseActivity implements OnClickListener, TitleWidget.IOnClick,ViewPager.OnPageChangeListener {
     private static final String IMAGE_CACHE_DIR = "images";

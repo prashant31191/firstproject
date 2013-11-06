@@ -19,7 +19,7 @@ import com.qinnuan.engine.xmpp.IReciveMessage;
 import com.qinnuan.engine.xmpp.provider.SessionManager;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.film.FilmIndexActivity;
 import com.qinnuan.engine.activity.user.UserActivity;
 import com.qinnuan.engine.application.BaoguApplication;

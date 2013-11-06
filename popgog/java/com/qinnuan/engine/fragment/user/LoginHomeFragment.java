@@ -11,7 +11,7 @@ import com.qinnuan.engine.fragment.InjectView;
 import com.qinnuan.engine.listener.ILoginListener;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.common.util.NetWorkUtile;
 
 /**

@@ -1,7 +1,7 @@
 package com.qinnuan.common.util;
 
 import android.util.Log;
-import com.showu.baogu.BuildConfig;
+import com.qinnuan.engine.BuildConfig;
 
 public class LogUtil {
 

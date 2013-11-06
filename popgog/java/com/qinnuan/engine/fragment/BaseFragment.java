@@ -14,7 +14,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.PopupWindow;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.common.util.JSONTool;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.widget.BottomPopWindow;
@@ -41,23 +41,22 @@ public abstract class BaseFragment extends Fragment  implements TitleWidget.IOnC
         FragmentView fragmentView= this.getClass().getAnnotation(FragmentView.class);
         conteView =inflater.inflate(fragmentView.id(),container,false) ;
 
-        tWidget= (TitleWidget) conteView.findViewById(R.id.titleBar);
-        if(tWidget!=null){
-            tWidget.setTitleListener(this);
-        }
-        LogUtil.i(getClass(), "onCreateView fragment======");
         return conteView;
     }
 
     @Override
-    public void onStart() {
-        super.onStart();
-
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        tWidget= (TitleWidget) conteView.findViewById(R.id.titleBar);
+        if(tWidget!=null){
+            tWidget.setTitleListener(this);
+        }
         injectView();
         bindDataForUIElement();
         bindEvent();
-        LogUtil.i(getClass(), "onStart fragment======");
+        LogUtil.i(getClass(), "onCreateView fragment======");
     }
+
 
     public void hidSoftInput(EditText editText){
         imm.hideSoftInputFromWindow(editText.getWindowToken(), 0);

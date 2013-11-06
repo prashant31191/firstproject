@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.showu.baogu.R;
 import com.qinnuan.engine.bean.Coupon;
+import com.qinnuan.engine.R;
 
 import java.util.List;
 

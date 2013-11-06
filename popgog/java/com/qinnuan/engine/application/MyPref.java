@@ -16,7 +16,7 @@ public class MyPref {
 
     private static MyPref instance;
     private SharedPreferences mSharedPref = null;
-    private final String APP_NAME = "COM.SHOWU.BAOGU.BAOGU_POP";
+    private final String APP_NAME = "COM.qinnuan.engine.BAOGU_POP";
     private final String DISPLAY_WIDTH = "DISPLAY_WIDTH";
     private final String DISPLAY_HEIGHT = "DISPLAY_HEIGHT";
 

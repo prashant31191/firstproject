@@ -9,7 +9,7 @@ import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ImageSpan;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.common.widget.Face;
 
 import java.util.List;

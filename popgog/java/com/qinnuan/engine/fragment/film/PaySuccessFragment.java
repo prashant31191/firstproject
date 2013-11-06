@@ -11,7 +11,7 @@ import com.qinnuan.engine.bean.film.ShowInfoBean;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.engine.fragment.InjectView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 import java.util.List;
 

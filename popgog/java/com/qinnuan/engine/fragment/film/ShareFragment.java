@@ -14,7 +14,7 @@ import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.film.OnLineSeatActivity;
 import com.qinnuan.engine.bean.film.Seat;
 import com.qinnuan.engine.bean.film.ShowInfoBean;

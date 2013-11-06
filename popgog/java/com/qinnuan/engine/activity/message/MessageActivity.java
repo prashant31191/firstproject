@@ -16,7 +16,7 @@ import com.qinnuan.engine.xmpp.IReciveMessage;
 import com.qinnuan.engine.xmpp.message.SessionType;
 import com.qinnuan.engine.xmpp.provider.SessionManager;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.application.BaoguApplication;
 import com.qinnuan.engine.application.Const;

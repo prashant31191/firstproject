@@ -5,7 +5,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.film.OnLineSeatActivity;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.fragment.BaseFragment;

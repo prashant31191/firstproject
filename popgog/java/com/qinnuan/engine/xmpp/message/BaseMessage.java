@@ -13,7 +13,7 @@ import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.util.JSONTool;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.filmFan.PublicInfoActivity;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.xmpp.json.MessageJson;

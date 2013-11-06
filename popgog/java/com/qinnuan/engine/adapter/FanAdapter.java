@@ -1,9 +1,5 @@
 package com.qinnuan.engine.adapter;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,10 +8,14 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.showu.baogu.R;
-import com.qinnuan.engine.bean.Fan;
 import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.util.TextUtil;
+import com.qinnuan.engine.bean.Fan;
+import com.qinnuan.engine.R;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class FanAdapter extends BaoguBaseAdapter<Fan> {
 

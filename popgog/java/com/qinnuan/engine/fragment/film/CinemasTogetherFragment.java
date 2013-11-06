@@ -4,7 +4,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.adapter.CinemasTogetherAdapter;
 import com.qinnuan.engine.bean.CinemaBean;
 import com.qinnuan.engine.fragment.BaseFragment;

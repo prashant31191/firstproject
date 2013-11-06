@@ -9,12 +9,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.qinnuan.engine.bean.Fan;
-import com.qinnuan.engine.listener.IOnItemClickListener;
 import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.bean.Fan;
+import com.qinnuan.engine.listener.IOnItemClickListener;
+import com.qinnuan.engine.R;
 
 import java.util.HashMap;
 import java.util.List;

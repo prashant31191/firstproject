@@ -24,7 +24,7 @@ import android.os.Build;
 import android.util.Log;
 
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.BuildConfig;
+import com.qinnuan.engine.BuildConfig;
 
 import java.io.*;
 import java.net.HttpURLConnection;

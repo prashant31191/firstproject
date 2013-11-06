@@ -23,7 +23,7 @@ import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.message.ChatActivity;
 import com.qinnuan.engine.adapter.ChatAdapter;
 import com.qinnuan.engine.fragment.InjectView;

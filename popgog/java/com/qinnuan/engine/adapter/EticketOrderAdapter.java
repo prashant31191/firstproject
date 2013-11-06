@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
 import com.qinnuan.engine.bean.user.EticketOrder;
+import com.qinnuan.engine.R;
 
 import java.util.List;
 

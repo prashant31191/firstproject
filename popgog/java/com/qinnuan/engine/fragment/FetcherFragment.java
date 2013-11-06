@@ -3,8 +3,8 @@ package com.qinnuan.engine.fragment;
 import android.os.Bundle;
 
 import com.qinnuan.common.http.image.util.ImageCache;
-import com.showu.baogu.R;
 import com.qinnuan.common.http.image.util.ImageFetcher;
+import com.qinnuan.engine.R;
 
 /**
  * Created by showu on 13-7-11.

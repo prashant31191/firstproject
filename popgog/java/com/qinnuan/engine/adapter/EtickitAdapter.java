@@ -7,10 +7,10 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.showu.baogu.R;
 import com.qinnuan.engine.activity.film.EtickitActivity;
 import com.qinnuan.engine.bean.film.EcinemaBean;
 import com.qinnuan.engine.bean.film.EtitckBean;
+import com.qinnuan.engine.R;
 
 import java.util.List;
 

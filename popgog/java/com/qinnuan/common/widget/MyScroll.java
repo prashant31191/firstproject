@@ -19,7 +19,7 @@ import com.qinnuan.engine.activity.filmFan.FanInfoActivity;
 import com.qinnuan.engine.bean.film.ShowTicketUser;
 import com.qinnuan.engine.listener.ILoadImgListener;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 import java.util.List;
 

@@ -23,7 +23,7 @@ import com.qinnuan.engine.fragment.FragmentView;
 import com.qinnuan.engine.fragment.InjectView;
 import com.qinnuan.common.util.DateUtil;
 import com.qinnuan.common.util.GUIUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 
 import java.util.ArrayList;
 import java.util.Calendar;

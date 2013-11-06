@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R ;
 
 public class BottomPopWindow extends LinearLayout {
 	public interface OnMenuSelect {

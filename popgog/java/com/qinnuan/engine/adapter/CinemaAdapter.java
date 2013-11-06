@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.qinnuan.common.util.TextUtil;
-import com.showu.baogu.R;
 import com.qinnuan.engine.bean.CinemaBean;
+import com.qinnuan.engine.R;
 
 import java.util.List;
 

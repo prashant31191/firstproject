@@ -35,7 +35,7 @@ import com.qinnuan.common.util.JSONTool;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.widget.LoadingDialog;
 import com.qinnuan.common.widget.TitleWidget;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.user.UserActivity;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.application.MyPref;

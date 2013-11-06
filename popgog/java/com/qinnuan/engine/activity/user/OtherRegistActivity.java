@@ -20,7 +20,7 @@ import com.qinnuan.common.util.FileUtil;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.util.image.crop.CropActivity;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.application.Const;
 import com.weibo.sdk.android.Oauth2AccessToken;
 

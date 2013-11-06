@@ -7,7 +7,7 @@ import android.widget.TextView;
 import com.qinnuan.engine.activity.film.EtickitActivity;
 import com.qinnuan.engine.fragment.BaseFragment;
 import com.qinnuan.engine.fragment.FragmentView;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.bean.film.EtitckBean;
 import com.qinnuan.engine.bean.film.TickitOrderBean;
 import com.qinnuan.engine.fragment.InjectView;

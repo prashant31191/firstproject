@@ -27,7 +27,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.adapter.PageViewAdapter;
 import com.qinnuan.engine.bean.film.FilmBean;
 import com.qinnuan.common.http.image.util.ImageFetcher;

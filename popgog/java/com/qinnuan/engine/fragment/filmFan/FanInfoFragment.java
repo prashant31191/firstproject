@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.qinnuan.engine.activity.filmFan.FanInfoActivity;
 import com.qinnuan.engine.listener.ILoadImgListener;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.bean.Dynamic;
 import com.qinnuan.engine.bean.Fan;
 import com.qinnuan.engine.bean.Sns;

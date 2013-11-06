@@ -15,7 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.qinnuan.engine.bean.film.Seat;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.common.http.image.util.ImageFetcher;
 
 import java.util.LinkedList;

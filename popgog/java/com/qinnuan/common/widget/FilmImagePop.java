@@ -14,7 +14,7 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.ImageDetailActivity;
 import com.qinnuan.engine.activity.film.FilmIndexActivity;
 import com.qinnuan.engine.bean.film.FilmBean;

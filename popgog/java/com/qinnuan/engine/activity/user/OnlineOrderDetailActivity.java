@@ -3,7 +3,7 @@ package com.qinnuan.engine.activity.user;
 import android.os.Bundle;
 
 import com.qinnuan.engine.fragment.film.ShareFragment;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.film.OnLineSeatActivity;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.bean.film.ShowInfoBean;

@@ -9,10 +9,10 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.qinnuan.common.util.ImageUtil;
 import com.qinnuan.common.util.LogUtil;
 import com.qinnuan.common.widget.Face;
-import com.showu.baogu.R;
-import com.qinnuan.common.util.ImageUtil;
+import com.qinnuan.engine.R;
 
 import java.util.List;
 

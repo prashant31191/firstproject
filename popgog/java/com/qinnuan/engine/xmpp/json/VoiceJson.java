@@ -11,7 +11,7 @@ import com.qinnuan.engine.xmpp.message.BaseMessage;
 import com.qinnuan.common.http.image.util.ImageFetcher;
 import com.qinnuan.common.josn.EAJson;
 import com.qinnuan.common.util.DateUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.xmpp.message.MessageSRC;
 

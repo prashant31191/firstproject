@@ -8,7 +8,7 @@ import com.qinnuan.engine.listener.ILoadImgListener;
 import com.qinnuan.engine.listener.IOnListVItemClick;
 import com.qinnuan.common.util.GUIUtil;
 import com.qinnuan.common.util.LogUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.BaseActivity;
 import com.qinnuan.engine.api.film.GetTogetherseefilmFilmlist;
 import com.qinnuan.engine.application.Const;

@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.qinnuan.common.util.DateUtil;
-import com.showu.baogu.R;
+import com.qinnuan.engine.R;
 import com.qinnuan.engine.activity.message.ShowMapActivity;
 import com.qinnuan.engine.application.Const;
 import com.qinnuan.engine.bean.MessageListBean;
